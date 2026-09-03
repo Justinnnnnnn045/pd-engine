@@ -89,13 +89,13 @@
   </div>
 
   <!-- NEWSLETTER CAPTURE -->
-  <!-- ACTIVATION: replace the email address below (the "you@example.com" in the form action) with YOUR real inbox.
+  <!-- ACTIVATION: replace the email address below (the "ebohjustin00@gmail.com" in the form action) with YOUR real inbox.
        FormSubmit forwards every subscriber straight to it. First submission triggers a one-click confirmation email — click it once, done.
        No account, no API key, no cost. -->
   <div class="newsletter" id="newsletter">
     <h2>The PD<span>.</span>Radar Digest</h2>
     <p>One email a week: the resources engineers actually say are worth paying for, ranked and quoted — plus new tiers as more threads are analyzed. No spam, unsubscribe anytime.</p>
-    <form id="nl-form" action="https://formsubmit.co/you@example.com" method="POST" novalidate>
+    <form id="nl-form" action="https://formsubmit.co/ebohjustin00@gmail.com" method="POST" novalidate>
       <input type="email" name="email" id="nl-email" placeholder="you@work.com" required>
       <input type="hidden" name="_subject" value="New PD.Radar subscriber">
       <input type="hidden" name="_template" value="table">
@@ -160,7 +160,7 @@ if (nlForm) {
       note.className = "err"; note.textContent = "That email doesn't look right — double-check it.";
       return;
     }
-    if (action.indexOf("you@example.com") !== -1) {
+    if (action.indexOf("ebohjustin00@gmail.com") !== -1) {
       e.preventDefault();
       note.className = "err";
       note.textContent = "Subscriptions aren't switched on yet — the owner needs to set their real email in the form (one line, 30 seconds). The leaderboard below is fully live.";
