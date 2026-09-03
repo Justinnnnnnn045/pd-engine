@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T03:19:36.931157Z",
+  "generated_at": "2026-09-03T18:07:59.177813Z",
   "source_item_id": 25136258,
-  "total_comments": 1080,
+  "total_comments": 540,
   "matched_resources": 24,
   "recommendations": [
     {
@@ -13,25 +13,25 @@
       "roles": [
         "all"
       ],
-      "citations": 102,
+      "citations": 51,
       "top_comments": [
         {
           "author": "gtf21",
           "snippet": "As a founder / CTO the best money I have spent is on a really good coach. My coach (my cofounder's too, and now some of our leadership team) doesn't have particular expertise in founding or leading co",
-          "id": 25137146
+          "id": "25137146"
         },
         {
           "author": "radihuq",
           "snippet": "How did you find your coach?",
-          "id": 25137260
+          "id": "25137260"
         },
         {
           "author": "gtf21",
           "snippet": "Recommendation from an investor and mentor I really respected. She had worked with my coach for years.",
-          "id": 25139014
+          "id": "25139014"
         }
       ],
-      "score": 102.0,
+      "score": 51.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "$50-$150",
       "rank": 1
@@ -45,25 +45,25 @@
       "roles": [
         "all"
       ],
-      "citations": 26,
+      "citations": 13,
       "top_comments": [
         {
           "author": "camnora",
           "snippet": "Destroy All Software screencasts by Gary Bernhardt has some great content. Besides the typical CS degree, I felt that these videos were most pivotal in me writing better code. https://www.destroyallso",
-          "id": 25136449
+          "id": "25136449"
         },
         {
           "author": "caffeine",
           "snippet": "Not OP but: IDE: Use IntelliJ Community Edition (or whatever Jetbrains IDE matches your project). Print out a keystrokes cheat sheet and tape it on your desk. Try to do stuff as a series of snippets, ",
-          "id": 25141253
+          "id": "25141253"
         },
         {
           "author": "darekkay",
           "snippet": "Start with going through the settings [1]. You will learn some new things along the way. There's also a great WebStorm Guide [2], with many tips applicable to other languages as well. [1] https://dare",
-          "id": 25143313
+          "id": "25143313"
         }
       ],
-      "score": 26.0,
+      "score": 13.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Free",
       "rank": 2
@@ -77,25 +77,25 @@
       "roles": [
         "engineer"
       ],
-      "citations": 8,
+      "citations": 4,
       "top_comments": [
         {
           "author": "caffeine",
           "snippet": "Not OP but: IDE: Use IntelliJ Community Edition (or whatever Jetbrains IDE matches your project). Print out a keystrokes cheat sheet and tape it on your desk. Try to do stuff as a series of snippets, ",
-          "id": 25141253
+          "id": "25141253"
         },
         {
           "author": "jkingsbery",
           "snippet": "As many others have said, books are the best things I've spent money on, but let me say more: Do books sometimes say things that are obvious? Yes. For example, when I first read Martin Fowler's book R",
-          "id": 25136836
+          "id": "25136836"
         },
         {
           "author": "smurpy",
           "snippet": "Two thumbs up for Refactoring by Fowler. Exactly. Even if you already know know the 300 odd refactorings he documents... The fact that his names let you talk about them with your team or more easily t",
-          "id": 25137034
+          "id": "25137034"
         }
       ],
-      "score": 8.0,
+      "score": 4.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 3
@@ -110,25 +110,25 @@
         "engineer",
         "data"
       ],
-      "citations": 6,
+      "citations": 3,
       "top_comments": [
         {
           "author": "paulgb",
           "snippet": "I've enjoyed having an O'Reilly Safari subscription for random access to books. In particular, the Pragmatic Programmer and Designing Data-Intensive Applications. I've also had good experiences with S",
-          "id": 25136513
+          "id": "25136513"
         },
         {
           "author": "KptMarchewa",
           "snippet": "Designing Data-Intensive Applications.",
-          "id": 25137406
+          "id": "25137406"
         },
         {
           "author": "_gy5c",
           "snippet": "\"Designing Data-Intensive Applications\" is the best reference I've found explaining the many pitfalls of data storage and transmission. It's especially helpful if your code has ownership of any data (",
-          "id": 25138545
+          "id": "25138545"
         }
       ],
-      "score": 6.0,
+      "score": 3.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 4
@@ -142,25 +142,25 @@
       "roles": [
         "engineer"
       ],
-      "citations": 6,
+      "citations": 3,
       "top_comments": [
         {
           "author": "whitepoplar",
           "snippet": "The book itself has turned into a consulting money grab, or DDD as a concept?",
-          "id": 25138774
+          "id": "25138774"
         },
         {
           "author": "JackFr",
           "snippet": "It looks like (to me) there is a DDD training industry, along the lines of, or as a part of the “agile transformation“ training industry. Which in and of itself isn’t bad I suppose, but part of me fee",
-          "id": 25140465
+          "id": "25140465"
         },
         {
           "author": "jfaerge171",
           "snippet": "When I first read the DDD book almosty 15 years ago, I think it took me 2 or 3 reads to get it into my head. I really like the first half that can be used purely for a design perspective, and the seco",
-          "id": 25147343
+          "id": "25147343"
         }
       ],
-      "score": 6.0,
+      "score": 3.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "$50-$150",
       "rank": 5
@@ -174,25 +174,25 @@
       "roles": [
         "all"
       ],
-      "citations": 6,
+      "citations": 3,
       "top_comments": [
         {
           "author": "spaetzleesser",
           "snippet": "I think it’s a good idea to invest in courses about negotiation, project management or other interpersonal skills. Toastmasters is also great and cheap. For most software engineers the technical side ",
-          "id": 25137137
+          "id": "25137137"
         },
         {
           "author": "biztos",
           "snippet": "Have you heard of Toastmasters?[0] I haven't done this myself but I plan to, as I've heard good things about it, and if you live in a big city or metro area there is probably at least one group you co",
-          "id": 25139062
+          "id": "25139062"
         },
         {
           "author": "wenc",
           "snippet": "I was part of Toastmasters for a while. My observation was that the pedagogy is indirect: the premise is that you are thrown into the deep end and start to speak from day 1 and get feedback from other",
-          "id": 25139370
+          "id": "25139370"
         }
       ],
-      "score": 6.0,
+      "score": 3.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 6
@@ -206,17 +206,12 @@
       "roles": [
         "all"
       ],
-      "citations": 4,
+      "citations": 2,
       "top_comments": [
         {
           "author": "unoti",
           "snippet": "1. Book: Nonviolent Communication, by Marhsall Rosenberg PhD. Great things are built by teams. The more senior I become, the greatest challenges involve teamwork, and the programming is the easy part.",
-          "id": 25138475
-        },
-        {
-          "author": "evo_9",
-          "snippet": "Online learning resources such as PluralSight, Udemy, Coursera. I use to buy courses that were long/complete but rarely finished them; too much basic stuff was covered and/or gone into detail that was",
-          "id": 25139981
+          "id": "25138475"
         },
         {
           "author": "evo_9",
@@ -224,7 +219,7 @@
           "id": "25139981"
         }
       ],
-      "score": 4.0,
+      "score": 2.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "$50-$150",
       "rank": 7
@@ -238,17 +233,12 @@
       "roles": [
         "engineer"
       ],
-      "citations": 4,
+      "citations": 2,
       "top_comments": [
         {
           "author": "symlinkk",
           "snippet": "Cmon, let’s be honest. A LeetCode subscription.",
-          "id": 25136615
-        },
-        {
-          "author": "x87678r",
-          "snippet": "Actually I learned a lot from doing leetcode problems then comparing my results with others, esp ones that were much quicker.",
-          "id": 25140183
+          "id": "25136615"
         },
         {
           "author": "x87678r",
@@ -256,7 +246,7 @@
           "id": "25140183"
         }
       ],
-      "score": 4.0,
+      "score": 2.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 8
@@ -270,17 +260,12 @@
       "roles": [
         "all"
       ],
-      "citations": 4,
+      "citations": 2,
       "top_comments": [
         {
           "author": "spelunker",
           "snippet": "Chris Voss also has a Masterclass on negotiation. I imagine it's probably similar to his book, but it's very good.",
-          "id": 25139080
-        },
-        {
-          "author": "balabaster",
-          "snippet": "His Masterclass was awesome too! And I definitely recommend listening to the Audiobook vs. reading it. Hearing his tone of voice and watching his body language made such a difference in understanding ",
-          "id": 25140150
+          "id": "25139080"
         },
         {
           "author": "balabaster",
@@ -288,7 +273,7 @@
           "id": "25140150"
         }
       ],
-      "score": 4.0,
+      "score": 2.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 9
@@ -302,17 +287,12 @@
       "roles": [
         "engineer"
       ],
-      "citations": 4,
+      "citations": 2,
       "top_comments": [
         {
           "author": "paulgb",
           "snippet": "I've enjoyed having an O'Reilly Safari subscription for random access to books. In particular, the Pragmatic Programmer and Designing Data-Intensive Applications. I've also had good experiences with S",
-          "id": 25136513
-        },
-        {
-          "author": "npsimons",
-          "snippet": "Books, but then I've always learned best from books - you set your own pace, they are easily cross-referenced and indexable, and to top it all off books are more often than not structured and well-org",
-          "id": 25137649
+          "id": "25136513"
         },
         {
           "author": "npsimons",
@@ -320,7 +300,7 @@
           "id": "25137649"
         }
       ],
-      "score": 4.0,
+      "score": 2.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 10
@@ -335,20 +315,15 @@
         "manager",
         "engineer"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "kamaal",
-          "snippet": "Making these kind of mistakes is something people avoid. But I'm a little happy I made this in my 20s. It can accelerate your learning by years to even decades. On a longish view of things a lot of th",
-          "id": 25137400
-        },
         {
           "author": "kamaal",
           "snippet": "Making these kind of mistakes is something people avoid. But I'm a little happy I made this in my 20s. It can accelerate your learning by years to even decades. On a longish view of things a lot of th",
           "id": "25137400"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 11
@@ -362,20 +337,15 @@
       "roles": [
         "all"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "dredmorbius",
-          "snippet": "Clothes always had a social signalling component. The signalling dynamic shifted, becoming both increasingly accessible, capable of defining increasingly finer social groups, esspecially those not ass",
-          "id": 25139642
-        },
         {
           "author": "dredmorbius",
           "snippet": "Clothes always had a social signalling component. The signalling dynamic shifted, becoming both increasingly accessible, capable of defining increasingly finer social groups, esspecially those not ass",
           "id": "25139642"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Free",
       "rank": 12
@@ -389,20 +359,15 @@
       "roles": [
         "all"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "gtf21",
-          "snippet": "Those are all things I've found coaching to help with. I had tried other coaches before settling with mine, she was recommended by an investor who had worked with her closely for years. To be honest, ",
-          "id": 25138947
-        },
         {
           "author": "gtf21",
           "snippet": "Those are all things I've found coaching to help with. I had tried other coaches before settling with mine, she was recommended by an investor who had worked with her closely for years. To be honest, ",
           "id": "25138947"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 13
@@ -416,20 +381,15 @@
       "roles": [
         "engineer"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "anon776",
-          "snippet": "Uncle Bobs Clean Code class. In person class over 2 days, shredded a lot of bad habits I had.",
-          "id": 25139577
-        },
         {
           "author": "anon776",
           "snippet": "Uncle Bobs Clean Code class. In person class over 2 days, shredded a lot of bad habits I had.",
           "id": "25139577"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 14
@@ -444,20 +404,15 @@
         "engineer",
         "beginner"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "Separo",
-          "snippet": "$0 for HardvardX CS50",
-          "id": 25139140
-        },
         {
           "author": "Separo",
           "snippet": "$0 for HardvardX CS50",
           "id": "25139140"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Free",
       "rank": 15
@@ -471,20 +426,15 @@
       "roles": [
         "engineer"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "BenGosub",
-          "snippet": "Two things I've focused on improving lately are: - Improving my typing speed and technique (there are many free web sites to do this) and - Improving my algorithm skills by doing exercises on HackerRa",
-          "id": 25138843
-        },
         {
           "author": "BenGosub",
           "snippet": "Two things I've focused on improving lately are: - Improving my typing speed and technique (there are many free web sites to do this) and - Improving my algorithm skills by doing exercises on HackerRa",
           "id": "25138843"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Free",
       "rank": 16
@@ -498,20 +448,15 @@
       "roles": [
         "all"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "cjfd",
-          "snippet": "Reading Getting Things Done by David Allen. Reading and practicing Test Driven Development by Kent Beck.",
-          "id": 25137826
-        },
         {
           "author": "cjfd",
           "snippet": "Reading Getting Things Done by David Allen. Reading and practicing Test Driven Development by Kent Beck.",
           "id": "25137826"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 17
@@ -525,20 +470,15 @@
       "roles": [
         "engineer"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "BenGosub",
-          "snippet": "Two things I've focused on improving lately are: - Improving my typing speed and technique (there are many free web sites to do this) and - Improving my algorithm skills by doing exercises on HackerRa",
-          "id": 25138843
-        },
         {
           "author": "BenGosub",
           "snippet": "Two things I've focused on improving lately are: - Improving my typing speed and technique (there are many free web sites to do this) and - Improving my algorithm skills by doing exercises on HackerRa",
           "id": "25138843"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Free",
       "rank": 18
@@ -553,20 +493,15 @@
         "founder",
         "manager"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "esond",
-          "snippet": "Never Split the Difference by Chris Voss. This relatively short book has made more of a difference to my personal livelihood than maybe any other pice of literature or advice. You really don’t realize",
-          "id": 25137262
-        },
         {
           "author": "esond",
           "snippet": "Never Split the Difference by Chris Voss. This relatively short book has made more of a difference to my personal livelihood than maybe any other pice of literature or advice. You really don’t realize",
           "id": "25137262"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 19
@@ -580,20 +515,15 @@
       "roles": [
         "all"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "mlthoughts2018",
-          "snippet": "I’ll give an example of a horrible waste of money on manager training: Plucky https://www.beplucky.com/ The whole thing has this arrogant faux-subversive “not your grandma’s manager training” attitude",
-          "id": 25139896
-        },
         {
           "author": "mlthoughts2018",
           "snippet": "I’ll give an example of a horrible waste of money on manager training: Plucky https://www.beplucky.com/ The whole thing has this arrogant faux-subversive “not your grandma’s manager training” attitude",
           "id": "25139896"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Free",
       "rank": 20
@@ -608,20 +538,15 @@
         "engineer",
         "sre"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "jfaerge171",
-          "snippet": "When I first read the DDD book almosty 15 years ago, I think it took me 2 or 3 reads to get it into my head. I really like the first half that can be used purely for a design perspective, and the seco",
-          "id": 25147343
-        },
         {
           "author": "jfaerge171",
           "snippet": "When I first read the DDD book almosty 15 years ago, I think it took me 2 or 3 reads to get it into my head. I really like the first half that can be used purely for a design perspective, and the seco",
           "id": "25147343"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 21
@@ -636,20 +561,15 @@
         "manager",
         "founder"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "free_rms",
-          "snippet": "It's especially frustrating if you generally agree with the goals but think the aggressive messaging is a bad look. Any constructive feedback is generally received as \"this person must be a closet whi",
-          "id": 25153301
-        },
         {
           "author": "free_rms",
           "snippet": "It's especially frustrating if you generally agree with the goals but think the aggressive messaging is a bad look. Any constructive feedback is generally received as \"this person must be a closet whi",
           "id": "25153301"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 22
@@ -663,20 +583,15 @@
       "roles": [
         "all"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "p0nce",
-          "snippet": "As an example. Suppose you get an interest in your bodily functions, and try experimenting with foods and stuff. You want to understand this stuff. At first your mental model will be very confused. Yo",
-          "id": 25187269
-        },
         {
           "author": "p0nce",
           "snippet": "As an example. Suppose you get an interest in your bodily functions, and try experimenting with foods and stuff. You want to understand this stuff. At first your mental model will be very confused. Yo",
           "id": "25187269"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
       "rank": 23
@@ -690,20 +605,15 @@
       "roles": [
         "founder"
       ],
-      "citations": 2,
+      "citations": 1,
       "top_comments": [
-        {
-          "author": "motohagiography",
-          "snippet": "Not money spent, but time wise, doing YC's startup school a couple years ago. https://www.startupschool.org/library",
-          "id": 25138782
-        },
         {
           "author": "motohagiography",
           "snippet": "Not money spent, but time wise, doing YC's startup school a couple years ago. https://www.startupschool.org/library",
           "id": "25138782"
         }
       ],
-      "score": 2.0,
+      "score": 1.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Free",
       "rank": 24
