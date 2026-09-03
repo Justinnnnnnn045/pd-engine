@@ -53,6 +53,19 @@
   .banner{background:linear-gradient(90deg,#123524,#0e2a3a); border:1px solid #1d4a3a; border-radius:12px; padding:14px 18px; margin:18px 0 4px; display:flex; gap:12px; align-items:center; flex-wrap:wrap;}
   .banner .big{font-size:15px; font-weight:700; color:var(--accent);}
   .banner .small{font-size:13px; color:var(--muted);}
+  /* Newsletter */
+  .newsletter{background:linear-gradient(135deg,#0e2a3a,#123524); border:1px solid #1d4a3a; border-radius:14px; padding:20px 22px; margin:22px 0 8px;}
+  .newsletter h2{font-size:19px; font-weight:800; margin-bottom:4px;}
+  .newsletter h2 span{color:var(--accent);}
+  .newsletter p{color:var(--muted); font-size:14px; margin-bottom:12px; max-width:600px;}
+  .newsletter form{display:flex; gap:10px; flex-wrap:wrap;}
+  .newsletter input[type=email]{flex:1; min-width:240px; background:var(--panel); border:1px solid var(--line); color:var(--ink); border-radius:10px; padding:11px 14px; font-size:15px; outline:none;}
+  .newsletter input[type=email]:focus{border-color:var(--accent2);}
+  .newsletter button{background:var(--accent); color:#06281c; border:none; border-radius:10px; padding:11px 20px; font-size:15px; font-weight:800; cursor:pointer; transition:.15s;}
+  .newsletter button:hover{background:#5fd6a6;}
+  .newsletter .note{font-size:12px; color:var(--muted); margin-top:9px;}
+  .newsletter .ok{color:var(--accent); font-weight:700; font-size:14px; margin-top:8px;}
+  .newsletter .err{color:var(--danger); font-weight:700; font-size:14px; margin-top:8px;}
 </style>
 </head>
 <body>
@@ -73,6 +86,23 @@
       <div class="big">The #1 answer: therapy. Seriously.</div>
       <div class="small">102 of 540 commenters said the best money they spent on development was a therapist or coach. Engineers aren't just about code.</div>
     </div>
+  </div>
+
+  <!-- NEWSLETTER CAPTURE -->
+  <!-- ACTIVATION: replace the email address below (the "you@example.com" in the form action) with YOUR real inbox.
+       FormSubmit forwards every subscriber straight to it. First submission triggers a one-click confirmation email — click it once, done.
+       No account, no API key, no cost. -->
+  <div class="newsletter" id="newsletter">
+    <h2>The PD<span>.</span>Radar Digest</h2>
+    <p>One email a week: the resources engineers actually say are worth paying for, ranked and quoted — plus new tiers as more threads are analyzed. No spam, unsubscribe anytime.</p>
+    <form id="nl-form" action="https://formsubmit.co/you@example.com" method="POST" novalidate>
+      <input type="email" name="email" id="nl-email" placeholder="you@work.com" required>
+      <input type="hidden" name="_subject" value="New PD.Radar subscriber">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <button type="submit">Join free</button>
+    </form>
+    <div class="note" id="nl-note">Zero spam. Leave anytime. Built on the same honesty as the ranking: no fake numbers, ever.</div>
   </div>
 
   <div class="controls">
@@ -117,6 +147,29 @@ document.getElementById("q").addEventListener("input", e => {
   query = e.target.value.trim().toLowerCase();
   render();
 });
+
+// Newsletter: intercept, show honest status. FormSubmit does the deliver.
+const nlForm = document.getElementById("nl-form");
+if (nlForm) {
+  nlForm.addEventListener("submit", e => {
+    const email = document.getElementById("nl-email").value.trim();
+    const note = document.getElementById("nl-note");
+    const action = nlForm.getAttribute("action") || "";
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      e.preventDefault();
+      note.className = "err"; note.textContent = "That email doesn't look right — double-check it.";
+      return;
+    }
+    if (action.indexOf("you@example.com") !== -1) {
+      e.preventDefault();
+      note.className = "err";
+      note.textContent = "Subscriptions aren't switched on yet — the owner needs to set their real email in the form (one line, 30 seconds). The leaderboard below is fully live.";
+      return;
+    }
+    // Real target: let FormSubmit handle it, show waiting state.
+    note.className = "note"; note.textContent = "Sending… check your inbox for a confirmation on the first signup.";
+  });
+}
 
 function esc(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
