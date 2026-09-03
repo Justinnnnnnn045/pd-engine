@@ -160,13 +160,7 @@ if (nlForm) {
       note.className = "err"; note.textContent = "That email doesn't look right — double-check it.";
       return;
     }
-    if (action.indexOf("ebohjustin00@gmail.com") !== -1) {
-      e.preventDefault();
-      note.className = "err";
-      note.textContent = "Subscriptions aren't switched on yet — the owner needs to set their real email in the form (one line, 30 seconds). The leaderboard below is fully live.";
-      return;
-    }
-    // Real target: let FormSubmit handle it, show waiting state.
+        // Real target: let FormSubmit handle it, show waiting state.
     note.className = "note"; note.textContent = "Sending… check your inbox for a confirmation on the first signup.";
   });
 }
