@@ -1,0 +1,216 @@
+{
+  "generated_at": "2026-09-06T22:23:25.633916Z",
+  "source_item_id": 26171008,
+  "total_comments": 199,
+  "matched_resources": 8,
+  "recommendations": [
+    {
+      "title": "LeetCode",
+      "type": "tool",
+      "creator": "LeetCode",
+      "price_est": 35,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 6,
+      "top_comments": [
+        {
+          "author": "virtuous_signal",
+          "snippet": "As a self taught graduate in an unrelated major, in a rural area, I was fortunate to get an entry level job and then a fully remote job this past year. If you can do any contract work or part time wor",
+          "id": "26173185"
+        },
+        {
+          "author": "msg",
+          "snippet": "I interviewed people for Amazon as well before moving to another FAANG. All I would amplify here is that entry level is entry level, especially in software. None of the college hires have professional",
+          "id": "26175505"
+        },
+        {
+          "author": "playingchanges",
+          "snippet": "One more angle since I haven’t seen anyone mention it. Instructions on how to bootstrap a software portfolio: Pick a language (sounds like you chose JS which would be my pick as well), buy a copy of c",
+          "id": "26173354"
+        }
+      ],
+      "score": 6.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "Under $50",
+      "rank": 1
+    },
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "hosh",
+          "snippet": "I know this option isn’t the best, but check out rentacoder or freelancer. You’re going to get underpaid, and competing with lowest-cost vendors. This is contract, 1099 work, so no employee benefits. ",
+          "id": "26173263"
+        },
+        {
+          "author": "hosh",
+          "snippet": "(So don’t just do documentation pull requests. Blog about the project itself, why you like it, help promote it, write a short tutorial about it on your own blog.)",
+          "id": "26173296"
+        },
+        {
+          "author": "tehwebguy",
+          "snippet": "Lots of good advice about continuing to learn to code for the medium- to long-term. For the extremely short term, consider looking for a listing of ecommerce shops (maybe a high traffic Shopify listin",
+          "id": "26173924"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "Free",
+      "rank": 2
+    },
+    {
+      "title": "freeCodeCamp",
+      "type": "course",
+      "creator": "Open source",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "engineer",
+        "beginner"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "hmwhy",
+          "snippet": "There are a lot of good advice given to you already and I just thought I'd share some of my personal experience with you since I some of your experience are similar to mine mostly because you appear t",
+          "id": "26174282"
+        },
+        {
+          "author": "LoudPipes",
+          "snippet": "AWS has plenty of free AWS courses: https://www.udemy.com/courses/search/?price=price-free&q=AWS... FreeCodeCamp on youtube has plenty of free, high-quality content.",
+          "id": "26197439"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "Free",
+      "rank": 3
+    },
+    {
+      "title": "Lambda School",
+      "type": "course",
+      "creator": "Bloom Institute",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "sokoloff",
+          "snippet": "Here’s my advice which is worth hopefully at least twice what it costs you. Focus on achieving some initial level of “proof” that you can perform in an entry-level software (or help desk) role. If you",
+          "id": "26172786"
+        },
+        {
+          "author": "rrherr",
+          "snippet": "Some remote jobs you could apply to right now: Automattic Happiness Engineer: https://automattic.com/work-with-us/#open-positions Zapier Support team: https://zapier.com/jobs/#job-openings To help you",
+          "id": "26179582"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "Free",
+      "rank": 4
+    },
+    {
+      "title": "Brilliant",
+      "type": "tool",
+      "creator": "Brilliant",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "tmaly",
+          "snippet": "It seems like you already have some good tech skills here. Have you considered trying out upwork? Hear me out, I was trying to figure out how to best go about sending out emails to people who sign up ",
+          "id": "26181909"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "Under $50",
+      "rank": 5
+    },
+    {
+      "title": "Coursera Specializations",
+      "type": "course",
+      "creator": "Various universities",
+      "price_est": 50,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "curiousllama",
+          "snippet": "I like some of the advice in this thread, but taking a bit of a broader view: OP, you're trying to do 2 things here: (1) get a job, and (2) learn a trade. Those are different, though related pursuits.",
+          "id": "26173304"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "$50-$150",
+      "rank": 6
+    },
+    {
+      "title": "HackerRank",
+      "type": "tool",
+      "creator": "HackerRank",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "crnkofe",
+          "snippet": "Here's my two cents. I'd strongly suggest as a junior hacker NOT to go job hunting without a decent portfolio(can be GitHub or similar) and at least one decent language or tech specialization. I've be",
+          "id": "26177893"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "Free",
+      "rank": 7
+    },
+    {
+      "title": "The Goal",
+      "type": "book",
+      "creator": "Eliyahu Goldratt",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "founder"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "hosh",
+          "snippet": "I know this option isn’t the best, but check out rentacoder or freelancer. You’re going to get underpaid, and competing with lowest-cost vendors. This is contract, 1099 work, so no employee benefits. ",
+          "id": "26173263"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Advice for finding an entry-level remote job? (id 26171008, 740 pts, 199 comments, 2021-02-17)",
+      "tier": "Under $50",
+      "rank": 8
+    }
+  ]
+}
