@@ -1,63 +1,68 @@
-# PD.Radar — professional-development leaderboard from real HN data
+# PD.Radar — self-updating leaderboards from real HN data
 
-A single-page leaderboard of professional-development resources that real engineers
-say were worth paying for — sourced from the 540 comments on the (in)famous
-Hacker News thread:
+A static leaderboard site that **updates itself**: a daily pipeline re-mines the
+flagship thread, discovers new Hacker News recommendation threads, ranks the
+resources people actually name, and commits the fresh data — no human required.
+
+**Live:** https://justinnnnnnn045.github.io/pd-engine/
+
+## The flagship
 
 > **Ask HN: What is the best money you have spent on professional development?**
 > https://news.ycombinator.com/item?id=25136258 — 524 points, 540 comments, Nov 2020
 
-## What it is
+Ranked by **citation count** — how many distinct commenters named each resource —
+not by marketing or upvotes. The #1 answer is "therapy" (51 citations), which no
+marketing-driven list would ever put first.
 
-- A **static, dependency-free website** (one HTML file + one JSON file).
-- A **citation-count leaderboard**: every comment from the thread was matched
-  against a curated lexicon of well-known PD resources; each resource's rank is
-  the number of distinct comments that named it.
-- Grouped into price tiers (Free / Under $50 / $50–$150 / $150+) so readers can
-  shop by budget.
-- Each ranked item shows **real quotes** from the commenters who cited it.
-
-## How it's built
+## How the self-updating engine works
 
 ```
-fetch_comments.py   -> pulls the full comment tree from the HN Algolia API
-extract_rank.py     -> matches comments against the lexicon, tallies citations,
-                       ranks, and writes recommendations.json
-site/index.html     -> renders recommendations.json (works from any static host)
+.github/workflows/auto-update.yml   — daily cron (06:17 UTC) + manual trigger
+auto_update.py                      — the engine, pure stdlib:
+   1. re-mines the flagship thread (fresh citation counts)
+   2. discovers new Ask HN threads (points>=80, comments>=80)
+   3. mines qualifying ones with the SAME lexicon + citation method
+   4. writes data/threads.json (the index the site renders as tabs)
+   5. commits any changes; GitHub Pages redeploys automatically
 ```
 
-### Honest scoring notes
+### Honesty gates (enforced in code)
 
-- Algolia's API does **not** expose per-comment upvote counts, so ranking is by
-  **citation frequency** (number of distinct comments naming a resource), not by
-  upvotes. That is the most honest signal available from this data source.
-- Prices are **public-knowledge estimates** (marked "est."), frozen at build
-  time. Always verify before buying.
-- The lexicon is curated; a resource absent from it will not appear even if
-  people mentioned it. Coverage is best-effort, not exhaustive.
-
-## Try it live
-
-https://justinnnnnnn045.github.io/pd-engine/
-
-## Rebuild (any day, on any machine)
-
-```bash
-python fetch_comments.py   # re-fetches current HN state for the thread
-python extract_rank.py     # re-ranks and rewrites recommendations.json
-```
+- **Intent gate**: only threads whose *title asks for recommendations* are mined.
+  Rant/vent/news threads produce lexicon false-positives and are skipped
+  (`title_has_intent()`).
+- **Quality gate**: a discovered thread is published only if ≥5 resources match,
+  each with ≥3 citations (`MIN_RESOURCES`, `MIN_CITES`). The flagship keeps its
+  original ≥1-citation rule so its ranking stays byte-compatible.
+- **Rejected threads are remembered** for 45 days (`discovery_state.json`) so the
+  same junk thread is never re-mined daily.
+- Citations are always verifiable against the live thread in seconds. Prices are
+  public-knowledge estimates, labelled. Affiliate links are disclosed and never
+  affect ranking.
 
 ## Files
 
 | File | Purpose |
 |---|---|
-| `site/index.html` | The entire application (CSS + JS inline) |
-| `site/recommendations.json` | The ranked data (generated) |
-| `fetch_comments.py` | Data fetcher |
-| `extract_rank.py` | Extractor + ranker |
-| `raw/` | Cached raw API responses (540-comment thread) |
+| `index.html` | The whole app — renders the thread index as switchable tabs |
+| `recommendations.json` | Flagship leaderboard (regenerated daily) |
+| `data/threads.json` | Index of all published threads (the tabs read this) |
+| `data/threads/<id>.json` | Each discovered thread's leaderboard |
+| `auto_update.py` | The self-updating engine |
+| `fetch_comments.py` / `extract_rank.py` | Original flagship pipeline (lexicon lives here) |
+| `.github/workflows/auto-update.yml` | The daily cron |
+
+## Run it yourself
+
+```bash
+python auto_update.py        # full pipeline: re-mine + discover + publish
+# or just the flagship:
+python fetch_comments.py && python extract_rank.py
+```
 
 ## Repo & data license
 
 Data is from public Hacker News comments (Algolia API). The ranking and page are
-original work. Not affiliated with Hacker News, Y Combinator, or any listed product.
+original work. Not affiliated with Hacker News, Y Combinator, or any listed
+product.
