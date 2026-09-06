@@ -176,7 +176,8 @@ def load_index():
     }]
 
 def save_index(idx):
-    idx.sort(key=lambda t: (-int(t.get("points", 0)), str(t.get("id"))))
+    # Flagship always first (it's the brand); remaining threads by points.
+    idx.sort(key=lambda t: (0 if t.get("flagship") else 1, -int(t.get("points", 0)), str(t.get("id"))))
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(INDEX_PATH, "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=2)
