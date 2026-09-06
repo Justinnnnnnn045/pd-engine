@@ -127,10 +127,10 @@
   </div>
 
   <footer>
-    Built from real Hacker News data. Not affiliated with HN or any listed product. <a href="https://github.com/Justinnnnnn045/pd-engine" target="_blank" rel="noopener">Source on GitHub</a> · Rebuild anytime: <code>python fetch_comments.py && python extract_rank.py</code></footer>
+    Built from real Hacker News data. Not affiliated with HN or any listed product. <a href="https://github.com/Justinnnnnnn045/pd-engine" target="_blank" rel="noopener">Source on GitHub</a> · Rebuild anytime: <code>python fetch_comments.py && python extract_rank.py</code></footer>
 </div>
 <script>
-const AFFILIATE = {"Refactoring": {"program": "amazon", "url": "https://www.amazon.com/s?k=Refactoring+Martin+Fowler"}, "Designing Data-Intensive Applications": {"program": "amazon", "url": "https://www.amazon.com/s?k=Designing+Data-Intensive+Applications+Martin+Kleppmann"}, "Domain-Driven Design": {"program": "amazon", "url": "https://www.amazon.com/s?k=Domain-Driven+Design+Eric+Evans"}, "The Pragmatic Programmer": {"program": "amazon", "url": "https://www.amazon.com/s?k=The+Pragmatic+Programmer+Hunt+Thomas"}, "Accelerate": {"program": "amazon", "url": "https://www.amazon.com/s?k=Accelerate+Forsgren+Humble+Kim"}, "Clean Code": {"program": "amazon", "url": "https://www.amazon.com/s?k=Clean+Code+Robert+Martin"}, "Getting Things Done": {"program": "amazon", "url": "https://www.amazon.com/s?k=Getting+Things+Done+David+Allen"}, "Never Split the Difference": {"program": "amazon", "url": "https://www.amazon.com/s?k=Never+Split+the+Difference+Chris+Voss"}, "Site Reliability Engineering": {"program": "amazon", "url": "https://www.amazon.com/s?k=Site+Reliability+Engineering+Google"}, "The Goal": {"program": "amazon", "url": "https://www.amazon.com/s?k=The+Goal+Eliyahu+Goldratt"}, "Thinking, Fast and Slow": {"program": "amazon", "url": "https://www.amazon.com/s?k=Thinking+Fast+and+Slow+Kahneman"}, "Coursera Specializations": {"program": "coursera", "url": "https://www.coursera.org/"}, "MasterClass": {"program": "masterclass", "url": "https://www.masterclass.com/"}, "Brilliant": {"program": "brilliant", "url": "https://www.brilliant.org/"}, "Notion": {"program": "notion", "url": "https://www.notion.com/"}};const AMAZON_TAG = "";const DISCLOSURE = "affiliate link \u2014 doesn't affect ranking";function affLink(title){const e=AFFILIATE[title];if(!e)return '';let u=e.url;if(e.program==='amazon'&&AMAZON_TAG){u+=(u.includes('?')?'&':'?')+'tag='+encodeURIComponent(AMAZON_TAG);}return `<a class="aff" href="${u}" target="_blank" rel="nofollow sponsored noopener">Check price</a> <span class="aff-note">${DISCLOSURE}</span>`;}
+const AFFILIATE = {"Refactoring": {"program": "amazon", "url": "https://www.amazon.com/s?k=Refactoring+Martin+Fowler"}, "Designing Data-Intensive Applications": {"program": "amazon", "url": "https://www.amazon.com/s?k=Designing+Data-Intensive+Applications+Martin+Kleppmann"}, "Domain-Driven Design": {"program": "amazon", "url": "https://www.amazon.com/s?k=Domain-Driven+Design+Eric+Evans"}, "The Pragmatic Programmer": {"program": "amazon", "url": "https://www.amazon.com/s?k=The+Pragmatic+Programmer+Hunt+Thomas"}, "Accelerate": {"program": "amazon", "url": "https://www.amazon.com/s?k=Accelerate+Forsgren+Humble+Kim"}, "Clean Code": {"program": "amazon", "url": "https://www.amazon.com/s?k=Clean+Code+Robert+Martin"}, "Getting Things Done": {"program": "amazon", "url": "https://www.amazon.com/s?k=Getting+Things+Done+David+Allen"}, "Never Split the Difference": {"program": "amazon", "url": "https://www.amazon.com/s?k=Never+Split+the+Difference+Chris+Voss"}, "Site Reliability Engineering": {"program": "amazon", "url": "https://www.amazon.com/s?k=Site+Reliability+Engineering+Google"}, "The Goal": {"program": "amazon", "url": "https://www.amazon.com/s?k=The+Goal+Eliyahu+Goldratt"}, "Thinking, Fast and Slow": {"program": "amazon", "url": "https://www.amazon.com/s?k=Thinking+Fast+and+Slow+Kahneman"}, "Coursera Specializations": {"program": "coursera", "url": "https://www.coursera.org/"}, "MasterClass": {"program": "masterclass", "url": "https://www.masterclass.com/"}, "Brilliant": {"program": "brilliant", "url": "https://www.brilliant.org/"}, "Notion": {"program": "notion", "url": "https://www.notion.com/"}};const AMAZON_TAG = "";const DISCLOSURE = "affiliate link \u2014 doesn't affect ranking";function affLink(title){const e=AFFILIATE[title];if(!e)return '';let u=e.url;if(e.program==='amazon'&&AMAZON_TAG){u+=(u.includes('?')?'&':'?')+'tag='+encodeURIComponent(AMAZON_TAG);}const isAff = e.program==='amazon' && AMAZON_TAG; return `<a class="aff" href="${u}" target="_blank" rel="noopener ${isAff?'nofollow sponsored':''}">Check price</a> ${isAff?`<span class="aff-note">${DISCLOSURE}</span>`:''}`;}
 const TIERS = ["Free", "Under $50", "$50-$150", "$150+"];
 
 let DATA = [];
@@ -157,7 +157,7 @@ if (nlForm) {
     const email = document.getElementById("nl-email").value.trim();
     const note = document.getElementById("nl-note");
     const action = nlForm.getAttribute("action")|| "";
-    if (!/^[^\s@]+@[^\s@]\.[^\s@]+$/.test(email)) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       e.preventDefault();
       note.className = "err"; note.textContent = "That email doesn't look right -- double-check it.";
       return;
@@ -214,7 +214,7 @@ function render(){
 }
 
 fetch("recommendations.json").then(r => r.json()).then(d => {
-  DDTD = d.recommendations || [];
+  DATA = d.recommendations || [];
   document.getElementById("matched").textContent = DATA.length;
   document.getElementById("gen").textContent = (d.generated_at || "").replace("T", " ").slice(0, 16);
   render();
