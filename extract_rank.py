@@ -108,7 +108,7 @@ LEXICON = [
     {"title": "Stripe Atlas", "type": "tool", "creator": "Stripe", "price_est": 500, "roles": ["founder"], "hotkey": ["stripe atlas"]},
     {"title": "Toastmasters", "type": "tool", "creator": "Toastmasters International", "price_est": 10, "roles": ["all"], "hotkey": ["toastmasters"]},
     {"title": "Engineering Management Mentor (community)", "type": "tool", "creator": "r/ExperiencedDevs & peers", "price_est": 0, "roles": ["manager"], "hotkey": ["experienceddevs"]},
-    {"title": "Writing / blogging practice", "type": "tool", "creator": "Personal practice", "price_est": 0, "roles": ["all"], "hotkey": ["blog", "writing"]},
+    {"title": "Writing / blogging practice", "type": "tool", "creator": "Personal practice", "price_est": 0, "roles": ["all"], "hotkey": ["blog", "blogging", "write publicly", "start a blog", "my blog"]},
     {"title": "Therapy / coaching", "type": "tool", "creator": "Professional services", "price_est": 100, "roles": ["all"], "hotkey": ["therapy", "coach"]},
 ]
 
