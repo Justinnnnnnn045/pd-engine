@@ -1,0 +1,402 @@
+{
+  "generated_at": "2026-09-06T22:11:20.731072Z",
+  "source_item_id": 21712194,
+  "total_comments": 209,
+  "matched_resources": 14,
+  "recommendations": [
+    {
+      "title": "High Output Management",
+      "type": "book",
+      "creator": "Andy Grove",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "founder"
+      ],
+      "citations": 8,
+      "top_comments": [
+        {
+          "author": "HealthyTree",
+          "snippet": "\"An elegant puzzle\", \"High output management\" and \"Behind Closed Doors\" have all been useful to me.",
+          "id": "21712418"
+        },
+        {
+          "author": "zt",
+          "snippet": "I think this is a more complicated question that it first appears. What do you mean by leadership? Getting things done for some strict definition? Managing a team? Managing a huge enterprise? I think ",
+          "id": "21712780"
+        },
+        {
+          "author": "tbarringer816",
+          "snippet": "High Output Management by Andy Grove. Great resource that I re-read every year or so",
+          "id": "21712808"
+        }
+      ],
+      "score": 8.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 1
+    },
+    {
+      "title": "The Goal",
+      "type": "book",
+      "creator": "Eliyahu Goldratt",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "founder"
+      ],
+      "citations": 6,
+      "top_comments": [
+        {
+          "author": "abhiyerra",
+          "snippet": "- High-Ouput Management - Five Disfunctions of a Team - The Goal - Principles by Ray Dalio - Good Profit by Charles Koch All of the books above cover some aspect of what you want but don’t seem to cov",
+          "id": "21713523"
+        },
+        {
+          "author": "bakenator",
+          "snippet": "When managing people in tech, I think it is equally as important to know how to organize as it is to know how to lead. I would recommend \"The Phoenix Project\" and \"The Unicorn Project\" and \"The Goal\" ",
+          "id": "21712594"
+        },
+        {
+          "author": "madhadron",
+          "snippet": "> I would recommend \"The Phoenix Project\" and \"The Unicorn Project\" and \"The Goal\" to all tech managers. Goldratt's \"The Goal\" and its sequels are interesting reading, but please, please internalize t",
+          "id": "21713648"
+        }
+      ],
+      "score": 6.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 2
+    },
+    {
+      "title": "The Phoenix Project",
+      "type": "book",
+      "creator": "Kim, Behr & Spafford",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "engineer"
+      ],
+      "citations": 6,
+      "top_comments": [
+        {
+          "author": "bakenator",
+          "snippet": "When managing people in tech, I think it is equally as important to know how to organize as it is to know how to lead. I would recommend \"The Phoenix Project\" and \"The Unicorn Project\" and \"The Goal\" ",
+          "id": "21712594"
+        },
+        {
+          "author": "madhadron",
+          "snippet": "> I would recommend \"The Phoenix Project\" and \"The Unicorn Project\" and \"The Goal\" to all tech managers. Goldratt's \"The Goal\" and its sequels are interesting reading, but please, please internalize t",
+          "id": "21713648"
+        },
+        {
+          "author": "ahpearce",
+          "snippet": "I'm not really following your criticisms on The Phoenix Project... Can you elaborate?",
+          "id": "21718638"
+        }
+      ],
+      "score": 6.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 3
+    },
+    {
+      "title": "The Manager's Path",
+      "type": "book",
+      "creator": "Camille Fournier",
+      "price_est": 30,
+      "price_label": "est.",
+      "roles": [
+        "manager"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "leothekim",
+          "snippet": "Try \"The Manager's Path\" by Camille Fournier. http://shop.oreilly.com/product/0636920056843.do",
+          "id": "21712352"
+        },
+        {
+          "author": "caust1c",
+          "snippet": "I read both this and \"The Making of a Manager\", and I've got to say, \"The Making of a Manager\" has much better advice and is a lot easier to act on than what Manager's Path gives. I think the primary ",
+          "id": "21714248"
+        },
+        {
+          "author": "lynfogeek",
+          "snippet": "A few recommendations from me and peers in my company who highly value some of the following: - \"Managing Humans\" by Michael Lopp very insightful and easy to read. - \"Accelerate: The Science of Lean S",
+          "id": "21714168"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 4
+    },
+    {
+      "title": "An Elegant Puzzle",
+      "type": "book",
+      "creator": "Will Larson",
+      "price_est": 30,
+      "price_label": "est.",
+      "roles": [
+        "manager"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "HealthyTree",
+          "snippet": "\"An elegant puzzle\", \"High output management\" and \"Behind Closed Doors\" have all been useful to me.",
+          "id": "21712418"
+        },
+        {
+          "author": "mavelikara",
+          "snippet": "I found \"An Elegant Puzzle: Systems of Engineering Management\" by Will Larson quite good for advice on practical management challenges one comes across in technology companies.",
+          "id": "21713759"
+        },
+        {
+          "author": "npr11",
+          "snippet": "For being immensely practical, I'm a big fan of 1. \"An Elegant Puzzle: Systems of Engineering Management\" 2. \"High Output Management\" 3. \"Peopleware: Productive Projects and Teams\"",
+          "id": "21718123"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 5
+    },
+    {
+      "title": "Brilliant",
+      "type": "tool",
+      "creator": "Brilliant",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "abhiyerra",
+          "snippet": "- High-Ouput Management - Five Disfunctions of a Team - The Goal - Principles by Ray Dalio - Good Profit by Charles Koch All of the books above cover some aspect of what you want but don’t seem to cov",
+          "id": "21713523"
+        },
+        {
+          "author": "zt",
+          "snippet": "I think this is a more complicated question that it first appears. What do you mean by leadership? Getting things done for some strict definition? Managing a team? Managing a huge enterprise? I think ",
+          "id": "21712780"
+        },
+        {
+          "author": "charliepark",
+          "snippet": "Brilliant. Thank you.",
+          "id": "21712982"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 6
+    },
+    {
+      "title": "How to Win Friends and Influence People",
+      "type": "book",
+      "creator": "Dale Carnegie",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "Stronico",
+          "snippet": "How to Win Friends and Influence People by Dale Carnegie. Not really about leadership per se, but it helps you get out of your own way which allows a lot of other good things room to happen.",
+          "id": "21712897"
+        },
+        {
+          "author": "thewanisdown",
+          "snippet": "Extreme Ownership https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs-eboo... How to Win Friends and Influence People https://www.amazon.com/How-Win-Friends-Influence-People-eboo... The Phoenix Pr",
+          "id": "21714073"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 7
+    },
+    {
+      "title": "The Mythical Man-Month",
+      "type": "book",
+      "creator": "Fred Brooks",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "engineer",
+        "manager"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "ahnooie",
+          "snippet": "Managing the Unmanageable, a second vote for Peopleware, The Mythical Man-Month, and The Conviction to Lead https://b3n.org/programming-management-leadership-books/",
+          "id": "21712529"
+        },
+        {
+          "author": "zt",
+          "snippet": "I think this is a more complicated question that it first appears. What do you mean by leadership? Getting things done for some strict definition? Managing a team? Managing a huge enterprise? I think ",
+          "id": "21712780"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 8
+    },
+    {
+      "title": "Therapy / coaching",
+      "type": "tool",
+      "creator": "Professional services",
+      "price_est": 100,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "charliepark",
+          "snippet": "I'm glad you're finding it useful! Regarding skipping, I can't recall anything that's counterproductive to read, but it's possible I skipped those parts, and, so, can't remember them. I wouldn't hesit",
+          "id": "21718217"
+        },
+        {
+          "author": "lynfogeek",
+          "snippet": "A few recommendations from me and peers in my company who highly value some of the following: - \"Managing Humans\" by Michael Lopp very insightful and easy to read. - \"Accelerate: The Science of Lean S",
+          "id": "21714168"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "$50-$150",
+      "rank": 9
+    },
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "josephmosby",
+          "snippet": "That is unfortunately most Simon Sinek material for me. I think he is a super sharp thinker, but I always come away feeling like his books could have been a blog post and his blog posts could have pro",
+          "id": "21717044"
+        },
+        {
+          "author": "neves",
+          "snippet": "Maybe because he is from the pre-internet era. The tech parts are dated, but since he sees people as the center of the problems, it doesn't matter much. Any of his books will give you a year of blog p",
+          "id": "21743169"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Free",
+      "rank": 10
+    },
+    {
+      "title": "Accelerate",
+      "type": "book",
+      "creator": "Forsgren, Humble & Kim",
+      "price_est": 30,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "engineer"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "lynfogeek",
+          "snippet": "A few recommendations from me and peers in my company who highly value some of the following: - \"Managing Humans\" by Michael Lopp very insightful and easy to read. - \"Accelerate: The Science of Lean S",
+          "id": "21714168"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 11
+    },
+    {
+      "title": "Getting Things Done",
+      "type": "book",
+      "creator": "David Allen",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "zt",
+          "snippet": "I think this is a more complicated question that it first appears. What do you mean by leadership? Getting things done for some strict definition? Managing a team? Managing a huge enterprise? I think ",
+          "id": "21712780"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 12
+    },
+    {
+      "title": "Notion",
+      "type": "tool",
+      "creator": "Notion",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "madhadron",
+          "snippet": "I didn't attempt to make a detailed criticism. Basically, it's the naive application of Goldratt's \"The Goal\" to IT. People have been trying to model IT processes on manufacturing for decades. Still d",
+          "id": "21719142"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Free",
+      "rank": 13
+    },
+    {
+      "title": "The Effective Executive",
+      "type": "book",
+      "creator": "Peter Drucker",
+      "price_est": 18,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "founder"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "Juha",
+          "snippet": "Recently I have been relying on two good sources for leadership: - Book: The Effective Executive by Peter Drucker: I think this is an excellent book to teach the part of the brain that wants to execut",
+          "id": "21713319"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Best book / resources on leadership, especially for tech teams? (id 21712194, 882 pts, 209 comments, 2019-12-05)",
+      "tier": "Under $50",
+      "rank": 14
+    }
+  ]
+}
