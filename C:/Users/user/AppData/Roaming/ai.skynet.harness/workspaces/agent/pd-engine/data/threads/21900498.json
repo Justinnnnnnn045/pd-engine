@@ -1,0 +1,392 @@
+{
+  "generated_at": "2026-09-06T22:23:20.661278Z",
+  "source_item_id": 21900498,
+  "total_comments": 417,
+  "matched_resources": 13,
+  "recommendations": [
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 6,
+      "top_comments": [
+        {
+          "author": "andreilys",
+          "snippet": "I'm not sure you need to read the whole book to get value out of it. I'm not knocking the idea of NVC, I think it's helpful, however, reading the book it seemed like the author took a great article/bl",
+          "id": "21903387"
+        },
+        {
+          "author": "wenc",
+          "snippet": "Here's an update of the ideas found in Superforecasting https://commoncog.com/blog/how-the-superforecasters-do-it/",
+          "id": "21902013"
+        },
+        {
+          "author": "vowelless",
+          "snippet": "Indeed. Kahneman actually wrote a comment on the blog post that surfaced this issue: https://replicationindex.com/2017/02/02/reconstruction-of-a-...",
+          "id": "21902377"
+        }
+      ],
+      "score": 6.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Free",
+      "rank": 1
+    },
+    {
+      "title": "Never Split the Difference",
+      "type": "book",
+      "creator": "Chris Voss",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "founder",
+        "manager"
+      ],
+      "citations": 5,
+      "top_comments": [
+        {
+          "author": "dustingetz",
+          "snippet": "For founders: #1 is Oren Klaff Pitch Anything. Then: Crossing the Chasm, Zero to One, Blitzscaling, Never Split the Difference, Oversubscribed: A Founders Guide to Seed Fundraising, Exactly What To Sa",
+          "id": "21902182"
+        },
+        {
+          "author": "steveeq1",
+          "snippet": "\"Never Split the Difference\" is a negotiation book with what I feel are manipulative and dirty tricks. HNer's should definately read it so you can recognize the common techniques negotiators, salesmen",
+          "id": "21902398"
+        },
+        {
+          "author": "cdr6934",
+          "snippet": "Here are my favorites for the decade: Never Split the Difference - https://amzn.to/2sAfLGj Bad Blood - https://amzn.to/2F4IW71 The Alchemist - https://amzn.to/356NRyV The Hard Thing About Hard Things ",
+          "id": "21911224"
+        }
+      ],
+      "score": 5.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 2
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "type": "book",
+      "creator": "Daniel Kahneman",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 5,
+      "top_comments": [
+        {
+          "author": "onlyrealcuzzo",
+          "snippet": "The Black Swan by Taleb and Thinking, Fast and Slow by Kahneman are two books that pretty much completely changed how I view the world, and have made me much happier as a direct result.",
+          "id": "21901585"
+        },
+        {
+          "author": "vowelless",
+          "snippet": "* Elements of Statistical Learning - Hastie, Tibshisrani * (Lot's of machine learning books to list: PRML, All of Stats, Deep Learning, etc.) * Active Portfolio Management - Kahn, Grinold * Thinking, ",
+          "id": "21901711"
+        },
+        {
+          "author": "t-writescode",
+          "snippet": "A strong upvote for Thinking Fast and Slow. I think it should be required reading in school, or at least parts of it.",
+          "id": "21901740"
+        }
+      ],
+      "score": 5.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 3
+    },
+    {
+      "title": "Anki",
+      "type": "tool",
+      "creator": "Anki (open source)",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "j1elo",
+          "snippet": "You can check the Show HN : https://news.ycombinator.com/item?id=12365693 The author even shared the formula used to calculate those rankings",
+          "id": "21913093"
+        },
+        {
+          "author": "photon_lines",
+          "snippet": "- Sapiens: A Brief History of Humankind (Great overview of how we got here and how our shared 'delusions' keep us where where we are). - Founders at Work: Stories of Startups' Early Days (Great interv",
+          "id": "21903884"
+        },
+        {
+          "author": "charlietango592",
+          "snippet": "Thinking fast and slow, by Daniel Kahneman Sapiens - A short history of humankind, by Yuval Harari",
+          "id": "21904805"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Free",
+      "rank": 4
+    },
+    {
+      "title": "Deep Work",
+      "type": "book",
+      "creator": "Cal Newport",
+      "price_est": 18,
+      "price_label": "est.",
+      "roles": [
+        "engineer",
+        "all"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "juddlyon",
+          "snippet": "Essentialism - Greg McKeown Deep Work - Cal Newport Value-Based Fees - Alan Weiss Technology Strategy Patterns - Eben Hewitt The Road Less Stupid - Keith J Cunningham The Business of Expertise - David",
+          "id": "21901697"
+        },
+        {
+          "author": "vowelless",
+          "snippet": "* Elements of Statistical Learning - Hastie, Tibshisrani * (Lot's of machine learning books to list: PRML, All of Stats, Deep Learning, etc.) * Active Portfolio Management - Kahn, Grinold * Thinking, ",
+          "id": "21901711"
+        },
+        {
+          "author": "drngdds",
+          "snippet": "Deep Work by Cal Newport was great. If only I could actually apply its principles at my job in an open office with an IM chat system.",
+          "id": "21901784"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 5
+    },
+    {
+      "title": "Therapy / coaching",
+      "type": "tool",
+      "creator": "Professional services",
+      "price_est": 100,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "guzey",
+          "snippet": "Hi, I'm the author of that critique. >Point 1: the chart bottoms out at 7, which falls within the range the book recommends. I'm fairly sure he recommends 7-9, and that the required amt varies from pe",
+          "id": "21904653"
+        },
+        {
+          "author": "doctorcroc",
+          "snippet": "Egoscue was a paradigm shift for me. I had never considered posture as a critical factor in health, and since reading his books, I've gone down the rabbit hole of posture and myofascial therapy, and I",
+          "id": "21904027"
+        },
+        {
+          "author": "f2000",
+          "snippet": "\"Feeling Good: The New Mood Therapy\" by Dr. David Burns. If you've got even a hint of depression or anxiety this is a great resource. Reading/understanding the \"10 cognitive distortions\" in this book ",
+          "id": "21904898"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "$50-$150",
+      "rank": 6
+    },
+    {
+      "title": "Brilliant",
+      "type": "tool",
+      "creator": "Brilliant",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "sivers",
+          "snippet": "Since 2007, I've taken detailed notes on every book I've read, then posted them on my site with my top recommendations up top: https://sivers.org/book My top recommendations here for the Hacker News c",
+          "id": "21902042"
+        },
+        {
+          "author": "jfc",
+          "snippet": "The Count of Monte Cristo is a true masterpiece. I have the unabridged version and have recommended it to others many times. Dumas has profound insight into human nature--the characters are beautifull",
+          "id": "21915414"
+        },
+        {
+          "author": "Wildgoose",
+          "snippet": "I'd like to second the suggestion of \"The Last Ringbearer\" which is indeed brilliantly iconoclastic, and I say that as someone who considers The Lord of the Rings as my favourite work of fiction.",
+          "id": "21912999"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 7
+    },
+    {
+      "title": "Getting Things Done",
+      "type": "book",
+      "creator": "David Allen",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "gjstein",
+          "snippet": "I know \"Getting Things Done\" by David Allen is a book the HN crowd occasionally loves to hate, but I came across it at the right time in my life and was the impetus I needed to reorganize my life and ",
+          "id": "21902030"
+        },
+        {
+          "author": "vowelless",
+          "snippet": "Only reason I didn't mention GTD is because I read it more than 10 years ago. It was very influential indeed. Probably the most important book I read in the decade before this one.",
+          "id": "21902390"
+        },
+        {
+          "author": "tmaly",
+          "snippet": "Getting Things Done - the 2001 version I read two years ago, I use the general idea and it helps to have a clear head when your fighting fires daily. Never Split the Difference - some very practical n",
+          "id": "21914539"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 8
+    },
+    {
+      "title": "Notion",
+      "type": "tool",
+      "creator": "Notion",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "crimsonalucard",
+          "snippet": "What happens when you gather all witnesses to watch a video recording of said event and describe the event as it happens? Do they see something different or do they see the same event? Likely they wil",
+          "id": "21904638"
+        },
+        {
+          "author": "jiscariot",
+          "snippet": "I felt the same way. Romanticizing hunter/gatherer society and downplaying positive effects of agrarian society or any notion of evolutionary psychology. It started OK and about halfway through it see",
+          "id": "21921409"
+        },
+        {
+          "author": "emodendroket",
+          "snippet": "That sounds interesting. Thanks for the recommendation. I do think coming into it without any particular expectations, and while watching secular videos about it, was actually helpful in being able to",
+          "id": "21909315"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Free",
+      "rank": 9
+    },
+    {
+      "title": "How to Win Friends and Influence People",
+      "type": "book",
+      "creator": "Dale Carnegie",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "mkolodny",
+          "snippet": "I can't stand books that \"sound deep while saying nothing\". This book definitely does not fall into that category. It's one of the books (if not the book) that has had the biggest impact on my life si",
+          "id": "21905135"
+        },
+        {
+          "author": "baristaGeek",
+          "snippet": "Best business books: -Secrets of Sandhill Road -Hackers and Painters -The Great CEO within -Venture Deals -Predictable Revenue -Zero to One -The Hard Thing About Hard Things -Lean customer development",
+          "id": "21902980"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 10
+    },
+    {
+      "title": "High Output Management",
+      "type": "book",
+      "creator": "Andy Grove",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "founder"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "thunga",
+          "snippet": "Decision Making : Decisive Management & Leadership : High Output Management, Presence Based Leadership, Leaders Guide to Story Telling & Dare to Lead",
+          "id": "21903219"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 11
+    },
+    {
+      "title": "The Art of Doing Science and Engineering",
+      "type": "book",
+      "creator": "Richard Hamming",
+      "price_est": 30,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "cynik_",
+          "snippet": "I've been maintaining a list of books I've read over the past years at https://explog.in/books/list.html ; some that come to mind – 1. Small Gods, Terry Pratchett (this might actually be more than 10 ",
+          "id": "21904235"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 12
+    },
+    {
+      "title": "The Pragmatic Programmer",
+      "type": "book",
+      "creator": "Hunt & Thomas",
+      "price_est": 45,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "cynik_",
+          "snippet": "I've been maintaining a list of books I've read over the past years at https://explog.in/books/list.html ; some that come to mind – 1. Small Gods, Terry Pratchett (this might actually be more than 10 ",
+          "id": "21904235"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Best books you read in the past decade? (id 21900498, 873 pts, 417 comments, 2019-12-28)",
+      "tier": "Under $50",
+      "rank": 13
+    }
+  ]
+}
