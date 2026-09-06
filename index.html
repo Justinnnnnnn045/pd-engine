@@ -229,9 +229,10 @@ function render(){
 
 // --- Self-updating thread index: the daily pipeline writes data/threads.json.
 // New threads appear here automatically — no code changes needed.
-const THREADS_URL = "data/threads.json";
+const CACHE_BUST = "?v=" + new Date().toISOString().slice(0, 10); // daily data must never be served stale from cache
+const THREADS_URL = "data/threads.json" + CACHE_BUST;
 function loadThread(t){
-  fetch(t.file).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  fetch(t.file + CACHE_BUST).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     DATA = d.recommendations || [];
     document.getElementById("matched").textContent = DATA.length;
     document.getElementById("gen").textContent = (d.generated_at || "").replace("T", " ").slice(0, 16);
