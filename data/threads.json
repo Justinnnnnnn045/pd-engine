@@ -1,5 +1,16 @@
 [
   {
+    "id": "25136258",
+    "title": "Ask HN: What is the best money you have spent on professional development?",
+    "short": "What is the best money you have spent on professional development?",
+    "points": 524,
+    "comments": 540,
+    "resources": 24,
+    "updated_at": "2026-09-06T22:11:07.519109Z",
+    "file": "recommendations.json",
+    "flagship": true
+  },
+  {
     "id": "21712194",
     "title": "Ask HN: Best book / resources on leadership, especially for tech teams?",
     "short": "Best book / resources on leadership, especially for tech teams?",
@@ -17,7 +28,7 @@
     "points": 873,
     "comments": 417,
     "resources": 13,
-    "updated_at": "2026-09-06T22:18:05.092470Z",
+    "updated_at": "2026-09-06T22:23:20.661278Z",
     "file": "data/threads/21900498.json",
     "flagship": false
   },
@@ -28,19 +39,8 @@
     "points": 740,
     "comments": 199,
     "resources": 8,
-    "updated_at": "2026-09-06T22:18:06.638653Z",
+    "updated_at": "2026-09-06T22:23:25.633916Z",
     "file": "data/threads/26171008.json",
     "flagship": false
-  },
-  {
-    "id": "25136258",
-    "title": "Ask HN: What is the best money you have spent on professional development?",
-    "short": "What is the best money you have spent on professional development?",
-    "points": 524,
-    "comments": 540,
-    "resources": 24,
-    "updated_at": "2026-09-06T22:11:07.519109Z",
-    "file": "recommendations.json",
-    "flagship": true
   }
 ]
