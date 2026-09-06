@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T18:07:59.177813Z",
+  "generated_at": "2026-09-06T22:11:07.519109Z",
   "source_item_id": 25136258,
   "total_comments": 540,
   "matched_resources": 24,
@@ -37,38 +37,6 @@
       "rank": 1
     },
     {
-      "title": "Writing / blogging practice",
-      "type": "tool",
-      "creator": "Personal practice",
-      "price_est": 0,
-      "price_label": "free",
-      "roles": [
-        "all"
-      ],
-      "citations": 13,
-      "top_comments": [
-        {
-          "author": "camnora",
-          "snippet": "Destroy All Software screencasts by Gary Bernhardt has some great content. Besides the typical CS degree, I felt that these videos were most pivotal in me writing better code. https://www.destroyallso",
-          "id": "25136449"
-        },
-        {
-          "author": "caffeine",
-          "snippet": "Not OP but: IDE: Use IntelliJ Community Edition (or whatever Jetbrains IDE matches your project). Print out a keystrokes cheat sheet and tape it on your desk. Try to do stuff as a series of snippets, ",
-          "id": "25141253"
-        },
-        {
-          "author": "darekkay",
-          "snippet": "Start with going through the settings [1]. You will learn some new things along the way. There's also a great WebStorm Guide [2], with many tips applicable to other languages as well. [1] https://dare",
-          "id": "25143313"
-        }
-      ],
-      "score": 13.0,
-      "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
-      "tier": "Free",
-      "rank": 2
-    },
-    {
       "title": "Refactoring",
       "type": "book",
       "creator": "Martin Fowler",
@@ -98,6 +66,38 @@
       "score": 4.0,
       "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
       "tier": "Under $50",
+      "rank": 2
+    },
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "darekkay",
+          "snippet": "Start with going through the settings [1]. You will learn some new things along the way. There's also a great WebStorm Guide [2], with many tips applicable to other languages as well. [1] https://dare",
+          "id": "25143313"
+        },
+        {
+          "author": "darekkay",
+          "snippet": "In 2014, I have written a just for fun plugin in about 2 hours (check out my write-up [1]). I've followed the \"How to make an IntelliJ IDEA plugin in less than 30 minutes\" [2] guide back then. Unfortu",
+          "id": "25147114"
+        },
+        {
+          "author": "allerhellsten",
+          "snippet": "I've seen three therapists. The first two were a complete waste of time, the third one completely changed my life for the better (incidentally, this started out as couple's therapy for my failed marri",
+          "id": "25141556"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: What is the best money you have spent on professional development? (id 25136258, 524 pts, 540 comments, 2020-11-18)",
+      "tier": "Free",
       "rank": 3
     },
     {
