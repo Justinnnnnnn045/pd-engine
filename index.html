@@ -66,14 +66,14 @@
   .newsletter button:hover{background:#5fd6a6;}
   .newsletter .note{font-size:12px; color:var(--muted); margin-top:9px;}
   .newsletter .ok{color:var(--accent); font-weight:700; font-size:14px; margin-top:8px;}
-  .newsletter .err{color:var(--danger); font-weight:700; font-size:14px; margin-top:8px;}
+  .newsletter .err{color:var(--danger); font-weight:700; font-size:14px; marin-top:8px;}
 </style>
-</head>
+<style>.aff{display:inline-block;color:var(--accent2);font-size:13px;font-weight:600;margin-top:8px;text-decoration:none;border:1px solid #24405c;border-radius:6px;padding:3px 9px;}.aff:hover{background:#24405c;}.aff-note{font-size:11px;color:var(--muted);margin-left:8px;}</style></head>
 <body>
 <div class="wrap">
   <header>
     <h1>PD<span class="dot">.</span>Radar</h1>
-    <p class="sub">The professional-development leaderboard sourced from <b>540 real comments</b> on a 524-point Hacker News thread. Ranked by how many distinct people actually named each thing — not by marketing.</p>
+    <p class="sub">The professional-development leaderboard sourced from <b>540 real comments</b> on a 524-point Hacker News thread. Ranked by how many distinct people actually named thing -- not by marketing.</p>
     <div class="meta">
       <span class="chip"><b>540</b> comments analyzed</span>
       <span class="chip"><b id="matched">24</b> resources ranked</span>
@@ -91,11 +91,11 @@
 
   <!-- NEWSLETTER CAPTURE -->
   <!-- ACTIVATION: replace the email address below (the "ebohjustin00@gmail.com" in the form action) with YOUR real inbox.
-       FormSubmit forwards every subscriber straight to it. First submission triggers a one-click confirmation email — click it once, done.
+       FormSubmit forwards every subscriber straight to it.  First submission triggers a one-click confirmation email - click it once, done.
        No account, no API key, no cost. -->
   <div class="newsletter" id="newsletter">
     <h2>The PD<span>.</span>Radar Digest</h2>
-    <p>One email a week: the resources engineers actually say are worth paying for, ranked and quoted — plus new tiers as more threads are analyzed. No spam, unsubscribe anytime.</p>
+    <p>One email a week: the resources engineers actually say are worth paying for, ranked and quoted -- plus new tiers as more threads are analyzed. No spam, unsubscribe anytime.</p>
     <form id="nl-form" action="https://formsubmit.co/ebohjustin00@gmail.com" method="POST" novalidate>
       <input type="email" name="email" id="nl-email" placeholder="you@work.com" required>
       <input type="hidden" name="_subject" value="New PD.Radar subscriber">
@@ -107,12 +107,12 @@
   </div>
 
   <div class="controls">
-    <input id="q" type="search" placeholder="Search resources… (e.g. 'DDIA', 'refactoring', 'anki')" autocomplete="off">
+    <input id="q" type="search" placeholder="Search resources"… (e.g. 'DDIA', 'refactoring', 'anki')" autocomplete="off">
     <div class="tier-btns" id="tiers">
       <button data-tier="all" class="active">All</button>
       <button data-tier="Free">Free</button>
       <button data-tier="Under $50">Under $50</button>
-      <button data-tier="$50-$150">$50–$150</button>
+      <button data-tier="$50-$150">$50-$150</button>
       <button data-tier="$150+">$150+</button>
     </div>
   </div>
@@ -122,16 +122,17 @@
 
   <div class="method">
     <h4>How this is ranked</h4>
-    <p>We fetched the full comment tree for <a href="https://news.ycombinator.com/item?id=25136258" target="_blank" rel="noopener">Ask HN: What is the best money you have spent on professional development?</a> (Nov 2020, 524 points, 540 comments) via the HN Algolia API. Every comment was matched against a curated lexicon of well-known PD resources; <b>citations</b> = the number of distinct comments that name the resource. Ties break alphabetically. Prices are public-knowledge <b>estimates</b> (label: est.) and change over time — always verify before buying. Upvote counts are not available per-comment from Algolia, so we rank on citation frequency, which is the honest signal we actually have.</p>
+    <p>We fetched the full comment tree for <a href="https://news.ycombinator.com/item?id=25136258" target="_blank" rel="noopener">Ask HN: What is the best money you have spent on professional development?</a> (Nov 2020, 524 points, 540 comments) via the HN Algolia API. Every comment was matched against a curated lexicon of well-known PDSc resources; <b>citations</b> = the number of distinct comments that name the resource. Ties break alphabetically. Prices are public-knowledge <b>estimates</b> (label: est.) and change over time -- always verify before buying. Upvote counts are not available per-comment from Algolia, so we rank on citation frequency, which is the honest signal we actually have.</p>
+  <p style="margin-top:10px"><b>Disclosure:</b> some links below are affiliate links — if you buy through them we may earn a small commission at no extra cost to you. Affiliate status <b>never affects ranking</b>: ranks come only from citation counts, which you can verify against the thread in seconds.</p>
   </div>
 
   <footer>
-    Built from real Hacker News data. Not affiliated with HN or any listed product. <a href="https://github.com/Justinnnnnnn045/pd-engine" target="_blank" rel="noopener">Source on GitHub</a> · Rebuild anytime: <code>python fetch_comments.py && python extract_rank.py</code>
-  </footer>
+    Built from real Hacker News data. Not affiliated with HN or any listed product. <a href="https://github.com/Justinnnnnn045/pd-engine" target="_blank" rel="noopener">Source on GitHub</a> · Rebuild anytime: <code>python fetch_comments.py && python extract_rank.py</code></footer>
 </div>
-
 <script>
+const AFFILIATE = {"Refactoring": {"program": "amazon", "url": "https://www.amazon.com/s?k=Refactoring+Martin+Fowler"}, "Designing Data-Intensive Applications": {"program": "amazon", "url": "https://www.amazon.com/s?k=Designing+Data-Intensive+Applications+Martin+Kleppmann"}, "Domain-Driven Design": {"program": "amazon", "url": "https://www.amazon.com/s?k=Domain-Driven+Design+Eric+Evans"}, "The Pragmatic Programmer": {"program": "amazon", "url": "https://www.amazon.com/s?k=The+Pragmatic+Programmer+Hunt+Thomas"}, "Accelerate": {"program": "amazon", "url": "https://www.amazon.com/s?k=Accelerate+Forsgren+Humble+Kim"}, "Clean Code": {"program": "amazon", "url": "https://www.amazon.com/s?k=Clean+Code+Robert+Martin"}, "Getting Things Done": {"program": "amazon", "url": "https://www.amazon.com/s?k=Getting+Things+Done+David+Allen"}, "Never Split the Difference": {"program": "amazon", "url": "https://www.amazon.com/s?k=Never+Split+the+Difference+Chris+Voss"}, "Site Reliability Engineering": {"program": "amazon", "url": "https://www.amazon.com/s?k=Site+Reliability+Engineering+Google"}, "The Goal": {"program": "amazon", "url": "https://www.amazon.com/s?k=The+Goal+Eliyahu+Goldratt"}, "Thinking, Fast and Slow": {"program": "amazon", "url": "https://www.amazon.com/s?k=Thinking+Fast+and+Slow+Kahneman"}, "Coursera Specializations": {"program": "coursera", "url": "https://www.coursera.org/"}, "MasterClass": {"program": "masterclass", "url": "https://www.masterclass.com/"}, "Brilliant": {"program": "brilliant", "url": "https://www.brilliant.org/"}, "Notion": {"program": "notion", "url": "https://www.notion.com/"}};const AMAZON_TAG = "";const DISCLOSURE = "affiliate link \u2014 doesn't affect ranking";function affLink(title){const e=AFFILIATE[title];if(!e)return '';let u=e.url;if(e.program==='amazon'&&AMAZON_TAG){u+=(u.includes('?')?'&':'?')+'tag='+encodeURIComponent(AMAZON_TAG);}return `<a class="aff" href="${u}" target="_blank" rel="nofollow sponsored noopener">Check price</a> <span class="aff-note">${DISCLOSURE}</span>`;}
 const TIERS = ["Free", "Under $50", "$50-$150", "$150+"];
+
 let DATA = [];
 let activeTier = "all";
 let query = "";
@@ -155,10 +156,10 @@ if (nlForm) {
   nlForm.addEventListener("submit", e => {
     const email = document.getElementById("nl-email").value.trim();
     const note = document.getElementById("nl-note");
-    const action = nlForm.getAttribute("action") || "";
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    const action = nlForm.getAttribute("action")|| "";
+    if (!/^[^\s@]+@[^\s@]\.[^\s@]+$/.test(email)) {
       e.preventDefault();
-      note.className = "err"; note.textContent = "That email doesn't look right — double-check it.";
+      note.className = "err"; note.textContent = "That email doesn't look right -- double-check it.";
       return;
     }
         // Real target: let FormSubmit handle it, show waiting state.
@@ -166,7 +167,7 @@ if (nlForm) {
   });
 }
 
-function esc(s){ return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function esc(s){ return String(s).replace(/[&<>'\"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
 function render(){
   const board = document.getElementById("board");
@@ -183,41 +184,42 @@ function render(){
     if (!items.length) return;
     const sec = document.createElement("section");
     sec.className = "tier open";
-    sec.innerHTML = `<div class="tier-head"><h2>${esc(tier)}</h2><span class="n">${items.length} resources</span></div>`;
+    sec.innerHTML = `<div class=\"tier-head\"><h2>${esc(tier)}</h2><span class=\"n\">${items.length} resources</span></div>`;
     items.forEach(r => {
       const citeText = r.citations === 1 ? "1 citation" : r.citations + " citations";
-      const price = r.price_est === 0 ? "Free" : `$${r.price_est} (est.)`;
-      const tags = (r.roles||[]).map(x => `<span class="tag role">${esc(x)}</span>`).join("");
+      const price = r.price_est === 0 ? "Free" : `${r.price_est} (est.)`;
+      const tags = (r.roles||[]).map(x => `<span class=\"tag role\">${esc(x)}</span>`).join("");
       const evidence = (r.top_comments||[]).map(c =>
         `<blockquote><b>${esc(c.author)}:</b> ${esc(c.snippet||"").slice(0,240)}${(c.snippet||"").length > 240 ? "…" : ""}</blockquote>`
       ).join("");
       const card = document.createElement("div");
       card.className = "card";
       card.innerHTML = `
-        <div class="rank">${r.rank}</div>
+        <div class=\"rank\">${r.rank}</div>
         <div>
           <h3>${esc(r.title)}</h3>
-          <div class="who">${esc(r.creator)} · <span class="cites">${citeText}</span> · ${esc(price)}</div>
-          <div class="tags">${tags}</div>
-          <div class="evidence">
+          ${affLink(r.title)}
+          <div class=\"who\">${esc(r.creator)} · <span class=\"cites\">${citeText}</span>· ${esc(price)}</div>
+          <div class=\"tags\">${tags}</div>
+          <div class=\"evidence\">
             <details><summary>What people actually said</summary>${evidence || "<blockquote>No snippet captured.</blockquote>"}</details>
           </div>
         </div>
-        <div class="cites">${r.citations}</div>`;
+        <div class=\"cites\">${r.citations}</div>`;
       sec.appendChild(card);
     });
     board.appendChild(sec);
   });
-  if (!filtered.length) board.innerHTML = `<div class="empty">Nothing matches. Try a different search or tier.</div>`;
+  if (!filtered.length) board.innerHTML = `<div class=\"empty\">Nothing matches. Try a different search or tier.</div>`;
 }
 
 fetch("recommendations.json").then(r => r.json()).then(d => {
-  DATA = d.recommendations || [];
+  DDTD = d.recommendations || [];
   document.getElementById("matched").textContent = DATA.length;
   document.getElementById("gen").textContent = (d.generated_at || "").replace("T", " ").slice(0, 16);
   render();
 }).catch(err => {
-  document.getElementById("board").innerHTML = `<div class="empty">Could not load data: ${esc(err.message)}</div>`;
+  document.getElementById("board").innerHTML = `<div class=\"empty\">Could not load data: ${esc(err.message)}</div>`;
 });
 </script>
 </body>
