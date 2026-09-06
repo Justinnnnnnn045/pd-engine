@@ -42,5 +42,16 @@
     "updated_at": "2026-09-06T22:23:25.633916Z",
     "file": "data/threads/26171008.json",
     "flagship": false
+  },
+  {
+    "id": "13406638",
+    "title": "Ask HN: What's the best computer science book you've read recently?",
+    "short": "What's the best computer science book you've read recently?",
+    "points": 670,
+    "comments": 186,
+    "resources": 7,
+    "updated_at": "2026-09-06T22:34:12.808632Z",
+    "file": "data/threads/13406638.json",
+    "flagship": false
   }
 ]
