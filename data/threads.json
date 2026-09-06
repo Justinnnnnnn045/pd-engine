@@ -1,0 +1,24 @@
+[
+  {
+    "id": "21712194",
+    "title": "Ask HN: Best book / resources on leadership, especially for tech teams?",
+    "short": "Best book / resources on leadership, especially for tech teams?",
+    "points": 882,
+    "comments": 209,
+    "resources": 14,
+    "updated_at": "2026-09-06T22:11:20.731072Z",
+    "file": "data/threads/21712194.json",
+    "flagship": false
+  },
+  {
+    "id": "25136258",
+    "title": "Ask HN: What is the best money you have spent on professional development?",
+    "short": "What is the best money you have spent on professional development?",
+    "points": 524,
+    "comments": 540,
+    "resources": 24,
+    "updated_at": "2026-09-06T22:11:07.519109Z",
+    "file": "recommendations.json",
+    "flagship": true
+  }
+]
