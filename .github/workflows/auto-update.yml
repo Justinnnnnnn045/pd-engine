@@ -1,0 +1,46 @@
+name: auto-update
+
+# PD.Radar self-updating pipeline.
+# Daily: re-mines the flagship thread (fresh numbers), discovers new
+# Ask HN recommendation threads, mines qualifying ones, commits the
+# new data. GitHub Pages then redeploys automatically. The site updates
+# itself; no human commits required.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily 06:17 UTC
+  workflow_dispatch: {}     # manual trigger button, for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run self-update pipeline
+        run: python auto_update.py
+
+      - name: Commit and push new data
+        run: |
+          git config user.name "pd-engine-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes this run — nothing to commit."
+          else
+            git commit -m "auto-update: refresh thread data $(date -u +%F)"
+            git push
+          fi
