@@ -101,13 +101,15 @@
       <input type="hidden" name="_subject" value="New PD.Radar subscriber">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://justinnnnnnn045.github.io/pd-engine/?joined=1">
+      <input type="hidden" name="_autoresponse" value="You're on the PD.Radar Digest list. One email a week: the resources engineers actually say are worth paying for, ranked by real citations. No spam, unsubscribe anytime.">
       <button type="submit">Join free</button>
     </form>
     <div class="note" id="nl-note">Zero spam. Leave anytime. Built on the same honesty as the ranking: no fake numbers, ever.</div>
   </div>
 
   <div class="controls">
-    <input id="q" type="search" placeholder="Search resources"… (e.g. 'DDIA', 'refactoring', 'anki')" autocomplete="off">
+    <input id="q" type="search" placeholder="Search (e.g. DDIA, refactoring, anki)" autocomplete="off">
     <div class="tier-btns" id="tiers">
       <button data-tier="all" class="active">All</button>
       <button data-tier="Free">Free</button>
@@ -167,6 +169,13 @@ if (nlForm) {
   });
 }
 
+// Post-signup success: FormSubmit redirects back with ?joined=1
+if (new URLSearchParams(location.search).get("joined") === "1") {
+  const note = document.getElementById("nl-note");
+  if (note) { note.className = "note"; note.textContent = "You're in. Check your inbox for the confirmation (first signup only) -- the first Digest arrives within a week."; }
+  const nlForm2 = document.getElementById("nl-form");
+  if (nlForm2) { nlForm2.style.display = "none"; }
+}
 function esc(s){ return String(s).replace(/[&<>'\"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
 function render(){
