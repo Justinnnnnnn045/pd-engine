@@ -54,9 +54,19 @@ RANT_PATTERNS = ["like this", "rant", "vent", "just me", "wtf", "nuke",
 
 def title_has_intent(title):
     t = title.lower()
-    if any(p in t for p in RANT_PATTERNS):
-        return False
-    return any(k in t for k in INTENT_KEYWORDS)
+    has_intent = any(k in t for k in INTENT_KEYWORDS)
+    has_rant = any(p in t for p in RANT_PATTERNS)
+    # A title with genuine recommendation intent (best/books/course/etc.)
+    # is never auto-rejected just because a rant word appears as a substring —
+    # e.g. "Best career books to read after a layoff?" should pass.
+    if has_intent and not has_rant:
+        return True
+    if has_intent and has_rant:
+        # Only reject if the rant phrasing is a strong, standalone signal,
+        # not an incidental substring inside an otherwise recommendation-shaped title.
+        strong_rant = ["is this just me", "wtf", "rant:", "vent:"]
+        return not any(p in t for p in strong_rant)
+    return False
 
 DISCOVERY_QUERIES = [
     "best money you have spent",
@@ -89,7 +99,9 @@ def fetch_story_comments(story_id):
     while page < 5:
         url = (f"https://hn.algolia.com/api/v1/search?tags=comment,story_{story_id}"
                f"&hitsPerPage=1000&page={page}")
-        hits = get(url).get("hits", [])
+        data = get(url)
+        hits = data.get("hits", [])
+        nb_hits = data.get("nbHits", 0)
         for hit in hits:
             cid = str(hit.get("objectID"))
             txt = hit.get("comment_text") or ""
@@ -101,7 +113,7 @@ def fetch_story_comments(story_id):
                     "created_at": hit.get("created_at") or "",
                     "points": None,
                 }
-        if page * 1000 + len(hits) >= len(all_comments) + 1000 * (page + 1) or not hits:
+        if page * 1000 + len(hits) >= nb_hits or not hits:
             break
         page += 1
     return all_comments
@@ -189,10 +201,11 @@ def remine_flagship():
     results = mine_comments(comments, FLAGSHIP_TITLE + " " + FLAGSHIP_META, min_cites=1)
     new_doc = thread_doc({"id": FLAGSHIP_ID}, results, len(comments))
     old_doc = load_json(RECS_PATH, {})
+    old_map = {r["title"]: r["citations"] for r in old_doc.get("recommendations", [])}
+    new_map = {r["title"]: r["citations"] for r in new_doc["recommendations"]}
     changed = (old_doc.get("total_comments") != new_doc["total_comments"] or
                old_doc.get("matched_resources") != new_doc["matched_resources"] or
-               [r["citations"] for r in old_doc.get("recommendations", [])] !=
-               [r["citations"] for r in new_doc["recommendations"]])
+               old_map != new_map)
     if changed:
         with open(RECS_PATH, "w", encoding="utf-8") as f:
             json.dump(new_doc, f, ensure_ascii=False, indent=2)
