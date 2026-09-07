@@ -1,0 +1,357 @@
+{
+  "generated_at": "2026-09-07T12:31:07.543325Z",
+  "source_item_id": 21955258,
+  "total_comments": 391,
+  "matched_resources": 13,
+  "recommendations": [
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 41,
+      "top_comments": [
+        {
+          "author": "woofcat",
+          "snippet": "So I'm presuming you're limiting this discussion to technical books, and not fiction, etc. As if you're not limiting it to non-fiction, then yes you're missing out. If you're limiting it to non-fictio",
+          "id": "21955313"
+        },
+        {
+          "author": "gonehome",
+          "snippet": "Yes you’re missing out. There are a lot of bad books out there that waste your time (particularly in self-help). For an example of an excellent non-fiction book that gives sweeping background to a top",
+          "id": "21955399"
+        },
+        {
+          "author": "ivan_ah",
+          "snippet": "The way I see it, non-fiction books are all about distillation of information. Yes most of the information from books is freely available online in some other form, but you'll have to dig for it in ma",
+          "id": "21955412"
+        }
+      ],
+      "score": 41.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Free",
+      "rank": 1
+    },
+    {
+      "title": "Therapy / coaching",
+      "type": "tool",
+      "creator": "Professional services",
+      "price_est": 100,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 9,
+      "top_comments": [
+        {
+          "author": "carapace",
+          "snippet": "The people in the self-help section need something else . Those things (philosophy, literature, history and science) are the luxury of folks who aren't struggling with e.g. depression, abuse, drugs & ",
+          "id": "21956909"
+        },
+        {
+          "author": "Barrin92",
+          "snippet": ">Honestly, you're lucky if the only personal problems you have can be solved by philosophy, literature, history and science. most problems in your life can't be solved by reading a book, period. Self-",
+          "id": "21957025"
+        },
+        {
+          "author": "carapace",
+          "snippet": "> most problems in your life can't be solved by reading a book, period. How do you know? Not to be rude but why should I trust you more than some author of a \"self-help\" book? I mean, a religious pers",
+          "id": "21957597"
+        }
+      ],
+      "score": 9.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "$50-$150",
+      "rank": 2
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "type": "book",
+      "creator": "Daniel Kahneman",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 6,
+      "top_comments": [
+        {
+          "author": "peteforde",
+          "snippet": "Yes! Enlightenment Now by Steven Pinker Sapiens by Yuval Noah Harari Astrophysics For People in a Hurry by Neil deGrasse Tyson bonus round: Thinking, Fast and Slow by Daniel Kahneman Shoedog by Phil K",
+          "id": "21959706"
+        },
+        {
+          "author": "ritchiea",
+          "snippet": "First of all no one remembers everything they read. If you spend time reading lots of books you will find things that stick out to you personally that you are surprised other people didn't bring up in",
+          "id": "21955416"
+        },
+        {
+          "author": "tarboreus",
+          "snippet": "Books shouldn't be about absorbing \"information.\" Think of them as intellectual obstacle courses. A good book should challenge you, either with radically new ideas or radically new viewpoints. I basic",
+          "id": "21956143"
+        }
+      ],
+      "score": 6.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 3
+    },
+    {
+      "title": "Notion",
+      "type": "tool",
+      "creator": "Notion",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 5,
+      "top_comments": [
+        {
+          "author": "tgdnt",
+          "snippet": "I think many of us share the same thoughts you are describing, so thanks for sharing them. The principle I'm trying to go by is: I'm sure there are plenty of great new books, new films etc, but I stil",
+          "id": "21955947"
+        },
+        {
+          "author": "ssivark",
+          "snippet": "To elaborate on what @oneplane said, and in response to OP: > I spend most of my day reading online articles/conversations, watching videos, and listening to podcasts [...] I assume that the best part",
+          "id": "21956811"
+        },
+        {
+          "author": "kaybe",
+          "snippet": "I second your notion. I read The Martian on the website while it was being published there. (Oh hey, the website is still alive even though the story is gone - http://www.galactanet.com/writing.html )",
+          "id": "21957983"
+        }
+      ],
+      "score": 5.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Free",
+      "rank": 4
+    },
+    {
+      "title": "Anki",
+      "type": "tool",
+      "creator": "Anki (open source)",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "gdne",
+          "snippet": "tl;dr Yes. Books are worth it. For the vast majority of my life, I didn’t read any books. Reading for me is a painfully boring experience. I simply lack the ability to read and comprehend at a speed t",
+          "id": "21956065"
+        },
+        {
+          "author": "DenisM",
+          "snippet": "Nearly all non-fiction reading is junk-reading. Reading is an observational activity, and just like you can't learn to swim by observing swimmers you can't learn a subject by reading a book on it. The",
+          "id": "21957802"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Free",
+      "rank": 5
+    },
+    {
+      "title": "How to Win Friends and Influence People",
+      "type": "book",
+      "creator": "Dale Carnegie",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "tarboreus",
+          "snippet": "He decided to write a self-help book because every other self-help book draws on his research. And, surprise, it became a best-seller. But yes, sorry, if he'd actually written a bestseller earlier pro",
+          "id": "21956506"
+        },
+        {
+          "author": "rdiddly",
+          "snippet": "Most books don't age well, you're correct. Which is why you should read old books. Old books that are still around today are actually the few that were good enough to keep around. The crappy books fro",
+          "id": "21957189"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 6
+    },
+    {
+      "title": "Never Split the Difference",
+      "type": "book",
+      "creator": "Chris Voss",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "founder",
+        "manager"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "peterlk",
+          "snippet": "> I assume that the best part of the best books will surface in daily conversations, YouTube videos, CliffsNotes, podcasts, Reddit posts/comments, blog articles, etc I don't think this is true. In the",
+          "id": "21956437"
+        },
+        {
+          "author": "mikesabat",
+          "snippet": "I'm in the same situation although probably older than OP, so I've read more than 50 books throughout my life. The question of whether reading books is worth it is something that I'm also struggling w",
+          "id": "21956526"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 7
+    },
+    {
+      "title": "The Goal",
+      "type": "book",
+      "creator": "Eliyahu Goldratt",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "founder"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "oneplane",
+          "snippet": "Regarding the technical writing, that is indeed one of the very best examples when conveying an idea with a mindset or process on how that came to be (to varying degrees). It's not just a summary of f",
+          "id": "21959431"
+        },
+        {
+          "author": "jlangemeier",
+          "snippet": "I think you're viewing books and online content as entirely equivalent media forms; which would be much the same as treating movies and theater as equivalent content - they're adjacent, and provide si",
+          "id": "21957905"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 8
+    },
+    {
+      "title": "Brilliant",
+      "type": "tool",
+      "creator": "Brilliant",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "cosmodisk",
+          "snippet": "I've been reading a lot ever since I learned how to do it. While I do read a lot of stuff online,most of the stuff out there is just low quality crap. Yes, there's some brilliant stuff too,but it's pr",
+          "id": "21956977"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 9
+    },
+    {
+      "title": "Coursera Specializations",
+      "type": "course",
+      "creator": "Various universities",
+      "price_est": 50,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "mxschumacher",
+          "snippet": "I'm reading a lot and have done so for many years. It is one of the great sources of joy and richness in my life. Choosing a book is more difficult than it might seem. It sounds like you haven't encou",
+          "id": "21956563"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "$50-$150",
+      "rank": 10
+    },
+    {
+      "title": "Deep Work",
+      "type": "book",
+      "creator": "Cal Newport",
+      "price_est": 18,
+      "price_label": "est.",
+      "roles": [
+        "engineer",
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "tiniuclx",
+          "snippet": "I believe that the difference between sitting down and reading a book for an hour vs. browsing the internet is _exactly_ what makes books so valuable. You're right, books are a lot of effort. However,",
+          "id": "21955425"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 11
+    },
+    {
+      "title": "Roam Research",
+      "type": "tool",
+      "creator": "Roam",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "haecceity",
+          "snippet": "This is an excerpt from one of Seneca's essays which might convince you of the merit in books: Of all men they alone are at leisure who take time for philosophy, they alone really live; for they are n",
+          "id": "21957223"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 12
+    },
+    {
+      "title": "The Pragmatic Programmer",
+      "type": "book",
+      "creator": "Hunt & Thomas",
+      "price_est": 45,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "snow_mac",
+          "snippet": "Yes, absolutely. Books contain a lot of good information. You're a slow reader, I'm an ADHD reader, therefore I find that audiobooks are a stellar way to read. I plow throw 3-6 audio books a month, I'",
+          "id": "21959869"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: Are books worth it? (id 21955258, 553 pts, 391 comments, 2020-01-04)",
+      "tier": "Under $50",
+      "rank": 13
+    }
+  ]
+}

@@ -53,5 +53,27 @@
     "updated_at": "2026-09-06T22:34:12.808632Z",
     "file": "data/threads/13406638.json",
     "flagship": false
+  },
+  {
+    "id": "22092108",
+    "title": "Ask HN: What are the best unknown books you have read?",
+    "short": "What are the best unknown books you have read?",
+    "points": 613,
+    "comments": 388,
+    "resources": 7,
+    "updated_at": "2026-09-07T12:31:06.194242Z",
+    "file": "data/threads/22092108.json",
+    "flagship": false
+  },
+  {
+    "id": "21955258",
+    "title": "Ask HN: Are books worth it?",
+    "short": "Are books worth it?",
+    "points": 553,
+    "comments": 391,
+    "resources": 13,
+    "updated_at": "2026-09-07T12:31:07.543325Z",
+    "file": "data/threads/21955258.json",
+    "flagship": false
   }
 ]
