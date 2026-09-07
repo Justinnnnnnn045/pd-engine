@@ -128,7 +128,9 @@ def main():
     with open(os.path.join(RAW, "story_tree.json"), encoding="utf-8") as f:
         tree = json.load(f)
     flatten_comments(tree, all_comments)
-    all_comments.update(load_flat(os.path.join(RAW, "comments_p0.json")))
+    for fname in sorted(os.listdir(RAW)):
+        if fname.startswith("comments_p") and fname.endswith(".json"):
+            all_comments.update(load_flat(os.path.join(RAW, fname)))
     print(f"total unique comments: {len(all_comments)}")
 
     # 2. Match lexicon against comments, tally citations
