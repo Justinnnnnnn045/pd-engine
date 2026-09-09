@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-09-09T11:21:41.645664Z",
+  "source_item_id": 29668228,
+  "total_comments": 631,
+  "matched_resources": 11,
+  "recommendations": [
+    {
+      "title": "Brilliant",
+      "type": "tool",
+      "creator": "Brilliant",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 7,
+      "top_comments": [
+        {
+          "author": "brezelnbitte",
+          "snippet": "Why Fish Don’t Exist by Lulu Miller Lulu Miller, a host of the Invisibilia podcast, turns what at first is a simple story about an obsessive taxonomist, David Starr Jordan, into a deeply personal and ",
+          "id": "29668793"
+        },
+        {
+          "author": "bawolff",
+          "snippet": "He's a brilliant author, but his characters are not well developed (esp. The older stuff). If that's what you need in fiction you're probably better off reading something else.",
+          "id": "29669133"
+        },
+        {
+          "author": "lotsofcows",
+          "snippet": "...then you didn't read it. Try again, it's a brilliant reflection of human nature and really digs into the dystopia / utopia thing.",
+          "id": "29672345"
+        }
+      ],
+      "score": 7.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 1
+    },
+    {
+      "title": "The Goal",
+      "type": "book",
+      "creator": "Eliyahu Goldratt",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "founder"
+      ],
+      "citations": 6,
+      "top_comments": [
+        {
+          "author": "jacobkg",
+          "snippet": "‘The Peacemaker’s Code’ is a fantastic sci-fi book. It is reminiscent of a business novel like ‘The Goal’, being written by a Harvard negotiation expert. I can best describe it as a cross between ‘Arr",
+          "id": "29669822"
+        },
+        {
+          "author": "brunooliv",
+          "snippet": "\"The Goal: A process of ongoing improvement\" by Eliyahu M. Goldratt An amazing introduction to the theory of constraints and the value in doing things in small, incremental improvements \"A universe fr",
+          "id": "29670263"
+        },
+        {
+          "author": "gordon_freeman",
+          "snippet": "I think The Goal is one of those books that has had a profound positive impact on my life. Another one is Freakonomics. There are no books that would teach us concepts such as Theory of constraints an",
+          "id": "29670278"
+        }
+      ],
+      "score": 6.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 2
+    },
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 6,
+      "top_comments": [
+        {
+          "author": "kgm",
+          "snippet": "I just finished a re-read of the \"Commonweal\" series by Graydon Saunders, which begins with The March North : https://play.google.com/store/books/details?id=MoIOAwAAQBAJ I've never been sure how to su",
+          "id": "29669314"
+        },
+        {
+          "author": "tuatoru",
+          "snippet": "I re-read the series this year too. The books are just as good the second time 'round--maybe better. There's a fifth one new since my last read-through, and another in the offing perhaps[1]. Saunders'",
+          "id": "29673970"
+        },
+        {
+          "author": "not-my-account",
+          "snippet": "Sweet! Also, I think I follow you on Github! Your context tree weighting blog post is and has perfect depth. Thanks for writing it!",
+          "id": "29718732"
+        }
+      ],
+      "score": 6.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Free",
+      "rank": 3
+    },
+    {
+      "title": "Therapy / coaching",
+      "type": "tool",
+      "creator": "Professional services",
+      "price_est": 100,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 5,
+      "top_comments": [
+        {
+          "author": "michaelbarton",
+          "snippet": "“How to change your mind” by Michael Pollen. I read a lot of books, and this is one that caused a change in my life. The succinct summary is that psychedelics are misunderstood and there is more and m",
+          "id": "29669387"
+        },
+        {
+          "author": "tayo42",
+          "snippet": "Your post is basically my problem with how people talk about bad trips. You made the term \"bad trip\" ambiguous, scary and sound random. You're saying something might happen but no one can tell you wha",
+          "id": "29671007"
+        },
+        {
+          "author": "acjacobson",
+          "snippet": "Maybe I can give an anecdotal example that is less ambiguous. I have a fair amount of experience with psychedelics. I have had both uncomfortable trips and once what I would characterize as an actual ",
+          "id": "29672015"
+        }
+      ],
+      "score": 5.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "$50-$150",
+      "rank": 4
+    },
+    {
+      "title": "Anki",
+      "type": "tool",
+      "creator": "Anki (open source)",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "johndel",
+          "snippet": "Humankind by Rutger Bregman. It shows an optimistic view of the world through history, he mentions with facts why we trust, why this was/is our most valuable asset to survive and why the biggest advan",
+          "id": "29671501"
+        },
+        {
+          "author": "fidrelity",
+          "snippet": "1. \"Helgoland: The world of quantum theory\" It's relatively light on physics but I loved the philosophical mixin. 2. \"Seed of knowledge, stone of plenty\". Mostly about the electromagnetic properties o",
+          "id": "29671660"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Free",
+      "rank": 5
+    },
+    {
+      "title": "Never Split the Difference",
+      "type": "book",
+      "creator": "Chris Voss",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "founder",
+        "manager"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "jldugger",
+          "snippet": "The Book of Why by Judea Pearl was good, and informative, and left me wanting to find a good textbook on the subject with practice problems so I can apply the concepts in my real life causality proble",
+          "id": "29671256"
+        },
+        {
+          "author": "revorad",
+          "snippet": "Dune - I loved it so much I’m avoiding watching the film in case it doesn’t live up to the book. Never split the difference by Chris Voss - it’s a classic on negotiation. I’ve learned a lot of practic",
+          "id": "29671615"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 6
+    },
+    {
+      "title": "The Phoenix Project",
+      "type": "book",
+      "creator": "Kim, Behr & Spafford",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "engineer"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "skinkestek",
+          "snippet": "Probably \"The Goal\". After reading \"the Phoenix project\" a couple of years ago a good deal of it was predictable but that doesn't prevent it from being very interesting. (To be completely honest I lis",
+          "id": "29672782"
+        },
+        {
+          "author": "floydnoel",
+          "snippet": "I didn’t read The Phoenix Project yet, but I got a sale on its sequel, The Unicorn Project. I got a couple chapters in and found it almost repulsive. At the start a “rockstar” developer gets blamed fo",
+          "id": "29679491"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 7
+    },
+    {
+      "title": "An Elegant Puzzle",
+      "type": "book",
+      "creator": "Will Larson",
+      "price_est": 30,
+      "price_label": "est.",
+      "roles": [
+        "manager"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "fernandotakai",
+          "snippet": "fiction: project hail mary -- just an all around amazing book. non-fiction: an elegant puzzle: systems of engineering management -- i'm debating whether to change into management and this one really h",
+          "id": "29674139"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 8
+    },
+    {
+      "title": "Crucial Conversations",
+      "type": "book",
+      "creator": "Patterson et al.",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "manager",
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "jldl805",
+          "snippet": "Crucial Conversations. It was actually recommended to me in an HN thread. Literally life changing",
+          "id": "29672941"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 9
+    },
+    {
+      "title": "How to Win Friends and Influence People",
+      "type": "book",
+      "creator": "Dale Carnegie",
+      "price_est": 15,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "argestes",
+          "snippet": "\"How to win friends and influence people\" by Dale Carnegie",
+          "id": "29690780"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 10
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "type": "book",
+      "creator": "Daniel Kahneman",
+      "price_est": 20,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "KerryJones",
+          "snippet": "Thinking, Fast and Slow by Daniel Kahneman (father of behavioral psychology) was incredibly impactful. A few notable runner ups: - The Oxygen Advantage by Patrick Mckeown (as fitness enthusiast this w",
+          "id": "29671006"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What's the best book you read in 2021? (id 29668228, 515 pts, 631 comments, 2021-12-24)",
+      "tier": "Under $50",
+      "rank": 11
+    }
+  ]
+}

@@ -75,5 +75,16 @@
     "updated_at": "2026-09-07T12:31:07.543325Z",
     "file": "data/threads/21955258.json",
     "flagship": false
+  },
+  {
+    "id": "29668228",
+    "title": "Ask HN: What's the best book you read in 2021?",
+    "short": "What's the best book you read in 2021?",
+    "points": 515,
+    "comments": 631,
+    "resources": 11,
+    "updated_at": "2026-09-09T11:21:41.645664Z",
+    "file": "data/threads/29668228.json",
+    "flagship": false
   }
 ]
