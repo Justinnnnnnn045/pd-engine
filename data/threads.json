@@ -86,5 +86,16 @@
     "updated_at": "2026-09-09T11:21:41.645664Z",
     "file": "data/threads/29668228.json",
     "flagship": false
+  },
+  {
+    "id": "35536042",
+    "title": "Ask HN: What are some of the best university courses available online for free?",
+    "short": "What are some of the best university courses available online for free",
+    "points": 399,
+    "comments": 90,
+    "resources": 6,
+    "updated_at": "2026-09-10T11:18:50.241112Z",
+    "file": "data/threads/35536042.json",
+    "flagship": false
   }
 ]

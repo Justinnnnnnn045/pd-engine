@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-09-10T11:18:50.241112Z",
+  "source_item_id": 35536042,
+  "total_comments": 90,
+  "matched_resources": 6,
+  "recommendations": [
+    {
+      "title": "Coursera Specializations",
+      "type": "course",
+      "creator": "Various universities",
+      "price_est": 50,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 10,
+      "top_comments": [
+        {
+          "author": "agumonkey",
+          "snippet": "Thanks a lot, I was on a path to learn bio/med (there's a coursera bioinformatics minimooc too). Anybody in computational biology btw ? slack, irc.",
+          "id": "35544463"
+        },
+        {
+          "author": "AntoniusBlock",
+          "snippet": "Cryptography I by Dan Boneh (Stanford University) Programming Languages by Dan Grossman (University of Washington) Both are on Coursera.",
+          "id": "35538503"
+        },
+        {
+          "author": "Tepix",
+          "snippet": "The Science of the Solar System (Planetary Astronomy) by Caltech Professor Mike \"plutokiller\" Brown https://www.coursera.org/learn/solar-system I really liked this course. Here's the blurb: Learn abou",
+          "id": "35538752"
+        }
+      ],
+      "score": 10.0,
+      "source": "Ask HN: What are some of the best university courses available online for free? (id 35536042, 399 pts, 90 comments, 2023-04-12)",
+      "tier": "$50-$150",
+      "rank": 1
+    },
+    {
+      "title": "CS50x: Intro to Computer Science",
+      "type": "course",
+      "creator": "Harvard (David Malan)",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "engineer",
+        "beginner"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "smiley1437",
+          "snippet": "edx CS50",
+          "id": "35538567"
+        },
+        {
+          "author": "simonbarker87",
+          "snippet": "Harvards CS50 course changed my life. It was the first course that got through to me about how to code. Without that course and the enthusiasm of Professor David Malan I wouldn’t be where I am now and",
+          "id": "35541432"
+        },
+        {
+          "author": "Donovan-Shahly",
+          "snippet": "CS50 is Harvard's introduction to computer science course. It's pretty good. https://cs50.harvard.edu",
+          "id": "35594659"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: What are some of the best university courses available online for free? (id 35536042, 399 pts, 90 comments, 2023-04-12)",
+      "tier": "Free",
+      "rank": 2
+    },
+    {
+      "title": "MIT OpenCourseWare",
+      "type": "course",
+      "creator": "MIT",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "sss111",
+          "snippet": "5.111x Chemistry by Catherine Drennan on MiT OCW. CS3510 Algorithms Georgia Tech on Youtube.",
+          "id": "35538564"
+        },
+        {
+          "author": "michelpp",
+          "snippet": "MIT OCW Signals and Systems is excellent: https://www.youtube.com/watch?v=6xaaeop7gJ8&list=PLADC1A1B7F...",
+          "id": "35540655"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: What are some of the best university courses available online for free? (id 35536042, 399 pts, 90 comments, 2023-04-12)",
+      "tier": "Free",
+      "rank": 3
+    },
+    {
+      "title": "freeCodeCamp",
+      "type": "course",
+      "creator": "Open source",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "engineer",
+        "beginner"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "rg111",
+          "snippet": "Related: 1. Ask HN: What's the best lecture series you've seen? - https://news.ycombinator.com/item?id=34591291 2. Ask HN: Recommend me a course on Coursera - https://news.ycombinator.com/item?id=2282",
+          "id": "35542950"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What are some of the best university courses available online for free? (id 35536042, 399 pts, 90 comments, 2023-04-12)",
+      "tier": "Free",
+      "rank": 4
+    },
+    {
+      "title": "Khan Academy",
+      "type": "tool",
+      "creator": "Khan Academy",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "kwere",
+          "snippet": "Quantopian introduction to quantitative trading https://www.youtube.com/playlist?list=PLRFLF1OxMm_UL7WUWM31i... MIT 18.S096 Topics in Mathematics w Applications in Finance https://www.youtube.com/play",
+          "id": "35561641"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What are some of the best university courses available online for free? (id 35536042, 399 pts, 90 comments, 2023-04-12)",
+      "tier": "Free",
+      "rank": 5
+    },
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "criddell",
+          "snippet": "I'm looking for a course that uses tools like WinDbg and ETW and memory dumps to diagnose crashes, hangs, etc... It would need to include an introduction to basic assembly language because without tha",
+          "id": "35540421"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What are some of the best university courses available online for free? (id 35536042, 399 pts, 90 comments, 2023-04-12)",
+      "tier": "Free",
+      "rank": 6
+    }
+  ]
+}
