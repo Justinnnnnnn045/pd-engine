@@ -97,5 +97,16 @@
     "updated_at": "2026-09-10T11:18:50.241112Z",
     "file": "data/threads/35536042.json",
     "flagship": false
+  },
+  {
+    "id": "41756432",
+    "title": "Ask HN: What's the \"best\" book you've ever read?",
+    "short": "What's the \"best\" book you've ever read?",
+    "points": 376,
+    "comments": 940,
+    "resources": 10,
+    "updated_at": "2026-09-11T11:19:48.471588Z",
+    "file": "data/threads/41756432.json",
+    "flagship": false
   }
 ]
