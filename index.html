@@ -83,6 +83,7 @@
       <span class="chip"><b id="matched">24</b> resources ranked</span>
       <span class="chip">Source: HN id <b>25136258</b></span>
       <span class="chip">Updated <b id="gen">today</b></span>
+      <span class="chip">Last checked <b id="checked">today</b></span>
     </div>
   </header>
 
@@ -232,6 +233,13 @@ function render(){
 // New threads appear here automatically — no code changes needed.
 const CACHE_BUST = "?v=" + new Date().toISOString().slice(0, 10); // daily data must never be served stale from cache
 const THREADS_URL = "data/threads.json" + CACHE_BUST;
+  const LAST_CHECKED_URL = "data/last_checked.json" + CACHE_BUST;
+fetch(LAST_CHECKED_URL).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    const el = document.getElementById("checked");
+    if (el) el.textContent = (d.last_checked || "").replace("T", " ").slice(0, 16);
+  })
+  .catch(() => {});
 function loadThread(t){
   fetch(t.file + CACHE_BUST).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     DATA = d.recommendations || [];
