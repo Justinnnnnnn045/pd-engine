@@ -27,6 +27,7 @@ THREADS_DIR = os.path.join(DATA_DIR, "threads")
 INDEX_PATH = os.path.join(DATA_DIR, "threads.json")
 STATE_PATH = os.path.join(DATA_DIR, "discovery_state.json")
 RECS_PATH = os.path.join(BASE, "recommendations.json")
+LAST_CHECKED_PATH = os.path.join(DATA_DIR, "last_checked.json")
 
 FLAGSHIP_ID = "25136258"
 FLAGSHIP_TITLE = "Ask HN: What is the best money you have spent on professional development?"
@@ -86,6 +87,18 @@ def get(url):
 def now_iso():
     return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
+def write_heartbeat():
+    """
+    Writes on EVERY successful run, regardless of whether the flagship or
+    any thread actually changed. Deliberately separate from
+    recommendations.json's generated_at, which only updates on real
+    content changes. Without this, the site's displayed date can look
+    stale for weeks even though the pipeline checked every single day.
+    """
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(LAST_CHECKED_PATH, "w", encoding="utf-8") as f:
+        json.dump({"last_checked": now_iso()}, f, ensure_ascii=False, indent=2)
+
 # ---------------------------------------------------------------- fetching
 def fetch_story_comments(story_id):
     """Tree (hierarchy) + flat pages (completeness), deduped by string id."""
@@ -124,7 +137,8 @@ def mine_comments(all_comments, source_label, min_cites=1):
 
     min_cites=1 for the flagship (byte-compatible with the original
     extract_rank.py ranking: every resource with >=1 citation appears).
-    Discovered threads pass MIN_CITES so weak matches never publish.
+    Discovered threads pass MIN_CITES explicitly so weak matches never
+    publish — see the call site in process_new_threads below.
     """
     results = []
     for item in LEXICON:
@@ -275,7 +289,11 @@ def process_new_threads(candidates, index, state):
         print(f"  trying: {c['title']} ({c['points']} pts, {c['comments']} comments)")
         comments = fetch_story_comments(c["id"])
         label = f"{c['title']} (id {c['id']}, {c['points']} pts, {c['comments']} comments, {c['created_at'][:10]})"
-        results = mine_comments(comments, label)
+        # FIXED: was calling mine_comments without min_cites, silently
+        # defaulting to 1 instead of the intended MIN_CITES=3 — meaning
+        # single-citation resources could leak into newly published
+        # threads despite the module's own stated design intent.
+        results = mine_comments(comments, label, min_cites=MIN_CITES)
         if len(results) >= MIN_RESOURCES:
             doc = thread_doc(c, results, len(comments))
             os.makedirs(THREADS_DIR, exist_ok=True)
@@ -307,6 +325,7 @@ def main():
     candidates = discover_candidates()
     added = process_new_threads(candidates, index, state)
     save_index(index)
+    write_heartbeat()  # runs every time, independent of flag_changed/added
     print(f"done: flagship_changed={flag_changed} new_threads_added={added} total_threads={len(index)}")
 
 if __name__ == "__main__":
