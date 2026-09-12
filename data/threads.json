@@ -108,5 +108,27 @@
     "updated_at": "2026-09-11T11:19:48.471588Z",
     "file": "data/threads/41756432.json",
     "flagship": false
+  },
+  {
+    "id": "4966230",
+    "title": "Ask HN: Best books you read in 2012",
+    "short": "Best books you read in 2012",
+    "points": 359,
+    "comments": 220,
+    "resources": 7,
+    "updated_at": "2026-09-12T10:44:55.914774Z",
+    "file": "data/threads/4966230.json",
+    "flagship": false
+  },
+  {
+    "id": "25271676",
+    "title": "Ask HN: What are the best advanced computer science courses online?",
+    "short": "What are the best advanced computer science courses online?",
+    "points": 345,
+    "comments": 89,
+    "resources": 5,
+    "updated_at": "2026-09-12T10:44:56.611050Z",
+    "file": "data/threads/25271676.json",
+    "flagship": false
   }
 ]

@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-09-12T10:44:56.611050Z",
+  "source_item_id": 25271676,
+  "total_comments": 89,
+  "matched_resources": 5,
+  "recommendations": [
+    {
+      "title": "Coursera Specializations",
+      "type": "course",
+      "creator": "Various universities",
+      "price_est": 50,
+      "price_label": "est.",
+      "roles": [
+        "all"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "mindwok",
+          "snippet": "Does anyone know of entire degrees/programs with the kind of rigour in these courses, especially with regards to assessments, and direct access to lecturers and tutors etc? I'm going back to physical ",
+          "id": "25272069"
+        },
+        {
+          "author": "cambalache",
+          "snippet": "Hardly. Let's see the options: - A masters degree outside USA, it is probably way cheaper and extremely more prestigious, with better job prospects connections. - A masters degree in America, it more ",
+          "id": "25273068"
+        },
+        {
+          "author": "dannygarcia",
+          "snippet": "I would say Roughgarden's four CS Algorithms courses on Coursera are somewhat more advanced than CS50: https://www.coursera.org/specializations/algorithms It covers foundational topics like asymptotic",
+          "id": "25272151"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: What are the best advanced computer science courses online? (id 25271676, 345 pts, 89 comments, 2020-12-01)",
+      "tier": "$50-$150",
+      "rank": 1
+    },
+    {
+      "title": "CS50x: Intro to Computer Science",
+      "type": "course",
+      "creator": "Harvard (David Malan)",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "engineer",
+        "beginner"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "dannygarcia",
+          "snippet": "I would say Roughgarden's four CS Algorithms courses on Coursera are somewhat more advanced than CS50: https://www.coursera.org/specializations/algorithms It covers foundational topics like asymptotic",
+          "id": "25272151"
+        },
+        {
+          "author": "kyawzazaw",
+          "snippet": "CS50 is more like a intro course (although it just keeps growing so much).",
+          "id": "25272417"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: What are the best advanced computer science courses online? (id 25271676, 345 pts, 89 comments, 2020-12-01)",
+      "tier": "Free",
+      "rank": 2
+    },
+    {
+      "title": "Domain-Driven Design",
+      "type": "book",
+      "creator": "Eric Evans",
+      "price_est": 55,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 2,
+      "top_comments": [
+        {
+          "author": "ipnon",
+          "snippet": "Stanford's experimental operating systems course[0], where you buy a Raspberry Pi and write your operating system on the bare metal by using the reference specifications. \"You should take this class i",
+          "id": "25272229"
+        },
+        {
+          "author": "throw14082020",
+          "snippet": "It doesn't have video lectures. > This is a lab-based class with no explicit lectures. [source]( https://github.com/dddrrreee/cs140e-20win/ )",
+          "id": "25327606"
+        }
+      ],
+      "score": 2.0,
+      "source": "Ask HN: What are the best advanced computer science courses online? (id 25271676, 345 pts, 89 comments, 2020-12-01)",
+      "tier": "$50-$150",
+      "rank": 3
+    },
+    {
+      "title": "freeCodeCamp",
+      "type": "course",
+      "creator": "Open source",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "engineer",
+        "beginner"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "cambalache",
+          "snippet": "Hardly. Let's see the options: - A masters degree outside USA, it is probably way cheaper and extremely more prestigious, with better job prospects connections. - A masters degree in America, it more ",
+          "id": "25273068"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What are the best advanced computer science courses online? (id 25271676, 345 pts, 89 comments, 2020-12-01)",
+      "tier": "Free",
+      "rank": 4
+    },
+    {
+      "title": "MIT OpenCourseWare",
+      "type": "course",
+      "creator": "MIT",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 1,
+      "top_comments": [
+        {
+          "author": "chlopez21b",
+          "snippet": "Check out \"Artificial Intelligence\" on MIT OpenCourseware: https://ocw.mit.edu/courses/electrical-engineering-and-compu... OpenCourseware was historically one of the first offerings of its kind. I rem",
+          "id": "25273958"
+        }
+      ],
+      "score": 1.0,
+      "source": "Ask HN: What are the best advanced computer science courses online? (id 25271676, 345 pts, 89 comments, 2020-12-01)",
+      "tier": "Free",
+      "rank": 5
+    }
+  ]
+}
