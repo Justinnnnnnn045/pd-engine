@@ -83,7 +83,6 @@
       <span class="chip"><b id="matched">24</b> resources ranked</span>
       <span class="chip">Source: HN id <b>25136258</b></span>
       <span class="chip">Updated <b id="gen">today</b></span>
-      <span class="chip">Last checked <b id="checked">today</b></span>
     </div>
   </header>
 
@@ -144,6 +143,8 @@ const TIERS = ["Free", "Under $50", "$50-$150", "$150+"];
 let DATA = [];
 let activeTier = "all";
 let query = "";
+let LAST_CHECKED_DISPLAY = "";
+let currentIsFlagship = true;
 const DEFAULT_BANNER_TEXT = document.querySelector(".banner .big")?.textContent || "";
 
 const tierBtns = document.getElementById("tiers");
@@ -233,18 +234,24 @@ function render(){
 // New threads appear here automatically — no code changes needed.
 const CACHE_BUST = "?v=" + new Date().toISOString().slice(0, 10); // daily data must never be served stale from cache
 const THREADS_URL = "data/threads.json" + CACHE_BUST;
-  const LAST_CHECKED_URL = "data/last_checked.json" + CACHE_BUST;
+const LAST_CHECKED_URL = "data/last_checked.json" + CACHE_BUST;
 fetch(LAST_CHECKED_URL).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(d => {
-    const el = document.getElementById("checked");
-    if (el) el.textContent = (d.last_checked || "").replace("T", " ").slice(0, 16);
+    LAST_CHECKED_DISPLAY = (d.last_checked || "").replace("T", " ").slice(0, 16);
+    if (currentIsFlagship) {
+      const el = document.getElementById("gen");
+      if (el) el.textContent = LAST_CHECKED_DISPLAY;
+    }
   })
   .catch(() => {});
 function loadThread(t){
   fetch(t.file + CACHE_BUST).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     DATA = d.recommendations || [];
     document.getElementById("matched").textContent = DATA.length;
-    document.getElementById("gen").textContent = (d.generated_at || "").replace("T", " ").slice(0, 16);
+    currentIsFlagship = (t.flagship !== false);
+    document.getElementById("gen").textContent = currentIsFlagship
+      ? (LAST_CHECKED_DISPLAY || "today")
+      : (d.generated_at || "").replace("T", " ").slice(0, 16);
     const banner = document.querySelector(".banner .big");
     if (banner) banner.textContent = (t.flagship === false) ? "Thread: " + t.short : DEFAULT_BANNER_TEXT;
     render();
