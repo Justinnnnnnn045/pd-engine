@@ -130,5 +130,16 @@
     "updated_at": "2026-09-12T10:44:56.611050Z",
     "file": "data/threads/25271676.json",
     "flagship": false
+  },
+  {
+    "id": "6975638",
+    "title": "Ask HN: What book changed your life in 2013?",
+    "short": "What book changed your life in 2013?",
+    "points": 209,
+    "comments": 177,
+    "resources": 5,
+    "updated_at": "2026-09-19T10:57:43.449241Z",
+    "file": "data/threads/6975638.json",
+    "flagship": false
   }
 ]
