@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-09-23T11:34:44.136442Z",
+  "source_item_id": 41387062,
+  "total_comments": 123,
+  "matched_resources": 6,
+  "recommendations": [
+    {
+      "title": "Clean Code",
+      "type": "book",
+      "creator": "Robert C. Martin",
+      "price_est": 35,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 12,
+      "top_comments": [
+        {
+          "author": "intelVISA",
+          "snippet": "It's like reading books in order to get better at writing them... sure it kinda works but not really. You get better at SWE by building things!! The field has a lot of gurus who trick newcomers into f",
+          "id": "41415742"
+        },
+        {
+          "author": "anonymoushn",
+          "snippet": "It's probably useful to un-read Clean Code, though I don't really have a recommendation for a good replacement. The replacement is something like \"Make a lot of mistakes and develop good taste based o",
+          "id": "41387763"
+        },
+        {
+          "author": "dimgl",
+          "snippet": "I keep seeing this online. Why? Clean Code was instrumental in my improvement as an engineer. Is there a reason why this is the opinion nowadays?",
+          "id": "41387771"
+        }
+      ],
+      "score": 12.0,
+      "source": "Ask HN: What books should I read to improve as a software engineer? (id 41387062, 156 pts, 123 comments, 2024-08-29)",
+      "tier": "Under $50",
+      "rank": 1
+    },
+    {
+      "title": "A Philosophy of Software Design",
+      "type": "book",
+      "creator": "John Ousterhout",
+      "price_est": 30,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 8,
+      "top_comments": [
+        {
+          "author": "TheAlchemist",
+          "snippet": "2 books I consider excellent: - A Philosophy of Software Design by John Ousterhout - Domain-driven Design: Tackling Complexity in the Heart of Software by Eric Evans They both manage to explain some i",
+          "id": "41387187"
+        },
+        {
+          "author": "rado_stankov",
+          "snippet": "The top book imho is The Pragmatic Programer. Here some other recomendations - Designing Data-Intensive Applications - Tidy First?: A Personal Exercise in Empirical Software Design - A Philosophy of S",
+          "id": "41387633"
+        },
+        {
+          "author": "remixff2400",
+          "snippet": "I think that some of the advice hasn't aged well into modern language features and computer power, similar to the GoF Design Patterns book. Rather than an entry level book, this would be better for a ",
+          "id": "41415691"
+        }
+      ],
+      "score": 8.0,
+      "source": "Ask HN: What books should I read to improve as a software engineer? (id 41387062, 156 pts, 123 comments, 2024-08-29)",
+      "tier": "Under $50",
+      "rank": 2
+    },
+    {
+      "title": "The Pragmatic Programmer",
+      "type": "book",
+      "creator": "Hunt & Thomas",
+      "price_est": 45,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 5,
+      "top_comments": [
+        {
+          "author": "Jtsummers",
+          "snippet": "The Mythical Man-Month and The Design of Everyday Things are not out of date, even if older texts. The Pragmatic Programmer is also still worth a read and received an update since that list was create",
+          "id": "41387270"
+        },
+        {
+          "author": "optymizer",
+          "snippet": "I would split the books into two categories: those that improve the way you structure your code and deliver a software solution, and those that improve your technical understanding of the software pla",
+          "id": "41387801"
+        },
+        {
+          "author": "weinzierl",
+          "snippet": "\"A Philosophy of Software Design\" by Stanford's John Ousterhout is excellent. It is quite concise (about 190 pages), but in my opinion, it includes all the essential information that the other books i",
+          "id": "41387850"
+        }
+      ],
+      "score": 5.0,
+      "source": "Ask HN: What books should I read to improve as a software engineer? (id 41387062, 156 pts, 123 comments, 2024-08-29)",
+      "tier": "Under $50",
+      "rank": 3
+    },
+    {
+      "title": "Domain-Driven Design",
+      "type": "book",
+      "creator": "Eric Evans",
+      "price_est": 55,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "TheAlchemist",
+          "snippet": "2 books I consider excellent: - A Philosophy of Software Design by John Ousterhout - Domain-driven Design: Tackling Complexity in the Heart of Software by Eric Evans They both manage to explain some i",
+          "id": "41387187"
+        },
+        {
+          "author": "curtis3389",
+          "snippet": "Domain-Driven Design is fantastic. Test-Driven Design by Example is a good (and fun) read.",
+          "id": "41387615"
+        },
+        {
+          "author": "misterflibble",
+          "snippet": "I'm eager to hear other opinions on Eric's DDD book too :-D I still don't understand it!",
+          "id": "41388770"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: What books should I read to improve as a software engineer? (id 41387062, 156 pts, 123 comments, 2024-08-29)",
+      "tier": "$50-$150",
+      "rank": 4
+    },
+    {
+      "title": "Writing / blogging practice",
+      "type": "tool",
+      "creator": "Personal practice",
+      "price_est": 0,
+      "price_label": "free",
+      "roles": [
+        "all"
+      ],
+      "citations": 4,
+      "top_comments": [
+        {
+          "author": "rado_stankov",
+          "snippet": "The top book imho is The Pragmatic Programer. Here some other recomendations - Designing Data-Intensive Applications - Tidy First?: A Personal Exercise in Empirical Software Design - A Philosophy of S",
+          "id": "41387633"
+        },
+        {
+          "author": "bubblyworld",
+          "snippet": "I still got stuff out of it during my PhD (in mathematics, though I never finished). I think you might underestimate the value of tacit-knowledge-type stuff, especially from skilled mathematicians lik",
+          "id": "41389204"
+        },
+        {
+          "author": "weinzierl",
+          "snippet": "\"A Philosophy of Software Design\" by Stanford's John Ousterhout is excellent. It is quite concise (about 190 pages), but in my opinion, it includes all the essential information that the other books i",
+          "id": "41387850"
+        }
+      ],
+      "score": 4.0,
+      "source": "Ask HN: What books should I read to improve as a software engineer? (id 41387062, 156 pts, 123 comments, 2024-08-29)",
+      "tier": "Free",
+      "rank": 5
+    },
+    {
+      "title": "Refactoring",
+      "type": "book",
+      "creator": "Martin Fowler",
+      "price_est": 45,
+      "price_label": "est.",
+      "roles": [
+        "engineer"
+      ],
+      "citations": 3,
+      "top_comments": [
+        {
+          "author": "rado_stankov",
+          "snippet": "The top book imho is The Pragmatic Programer. Here some other recomendations - Designing Data-Intensive Applications - Tidy First?: A Personal Exercise in Empirical Software Design - A Philosophy of S",
+          "id": "41387633"
+        },
+        {
+          "author": "tejinderss",
+          "snippet": "> That being said, I wish there was a single consistent resource[1] that summarizes truly modern software design philosophy in the sense that it leaves the object orientation inspired ideas behind tha",
+          "id": "41473787"
+        },
+        {
+          "author": "austin-cheney",
+          "snippet": "Here are the subjects where I see both beginner and experienced developers fail and yet what separates the children from the adults in the room. So read absolutely any (multiple) books on these subjec",
+          "id": "41415745"
+        }
+      ],
+      "score": 3.0,
+      "source": "Ask HN: What books should I read to improve as a software engineer? (id 41387062, 156 pts, 123 comments, 2024-08-29)",
+      "tier": "Under $50",
+      "rank": 6
+    }
+  ]
+}

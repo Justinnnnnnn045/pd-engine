@@ -141,5 +141,16 @@
     "updated_at": "2026-09-19T10:57:43.449241Z",
     "file": "data/threads/6975638.json",
     "flagship": false
+  },
+  {
+    "id": "41387062",
+    "title": "Ask HN: What books should I read to improve as a software engineer?",
+    "short": "What books should I read to improve as a software engineer?",
+    "points": 156,
+    "comments": 123,
+    "resources": 6,
+    "updated_at": "2026-09-23T11:34:44.136442Z",
+    "file": "data/threads/41387062.json",
+    "flagship": false
   }
 ]
